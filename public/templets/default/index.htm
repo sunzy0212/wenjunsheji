@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="author" content="Design by Ryan" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link rel="stylesheet" type="text/css" href="/skin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/skin/css/indexbanner.css" />
+</head>
+<body >
+<!-- header -->
+<div class="header" > <a href="/"><img class="headerLogo" src="/skin/images/logo.png" /></a> 
+  <!-- list -->
+  <div class="list">
+    <div class="container">
+      <ul class="content">
+        <p class="listMTitle">Secret Menu</p>
+        <li class="listTitle">
+          <div class="title"> <img src="/skin/images/listpointer.png" /><a href="http://www.houzz.com/"><span>Houzz.com - 缺乏装修灵感?</span></a>
+            <div class="pointer">
+              <div class="sub sub1"></div>
+              <div class="sub sub2"></div>
+            </div>
+          </div>
+          <ul class="listContent">
+          </ul>
+        </li>
+        <li class="listTitle">
+          <div class="title"> <img src="/skin/images/listpointer.png" /><a href="http://www.diyphotography.net/"><span>这是你学习摄影的地方</span></a>
+            <div class="pointer">
+              <div class="sub sub1"></div>
+              <div class="sub sub2"></div>
+            </div>
+          </div>
+          <ul class="listContent">
+          </ul>
+        </li>
+        <li class="listTitle">
+          <div class="title"> <img src="/skin/images/listpointer.png" /><a href="http://icreatived.com/"><span>你还需要点什么?</span></a>
+            <div class="pointer">
+              <div class="sub sub1"></div>
+              <div class="sub sub2"></div>
+            </div>
+          </div>
+          <ul class="listContent">
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="addBtn">
+      <div class="sub1 sub"></div>
+      <div class="sub2 sub"></div>
+    </div>
+  </div>
+  <!-- list over -->
+  <ul class="nav">
+    <div class="navTop"></div>
+    <li class="child on"> <a href="/">
+      <p class="title">首页</p>
+      </a> </li>
+    {dede:channelartlist typeid='top'}
+    <li class="child"> <a href="{dede:field name='typeurl'/}">
+      <p class="title">{dede:field name='typename'/}</p>
+      </a>
+      <ul class="childContent">
+        {dede:channel type='son' noself='yes'} <a href="[field:typeurl/]">
+        <li class="childContentLi">[field:typename/]</li>
+        </a> {/dede:channel}
+      </ul>
+      <img class="wapNavPointer" src="/skin/images/wapnavpointer.jpg" /> </li>
+    {/dede:channelartlist}
+      </a> </li>
+    <li class="child navChildSearch" style="line-height:px;"> <img   style="margin-top: 53px;" class="seachIcon" src="/skin/images/seachicon.png" /> </li>
+  </ul>
+  <!-- searchContent -->
+  <div class="searchContent">
+    <form  name="formsearch" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+      <div class="seach">
+        <input type="hidden" name="kwtype" value="0" />
+        <input type="text" name="q" class="seachText" placeholder="搜索" />
+        <button type="submit" class="search-submit">
+        <div id="btn_2" class="btn"><img src="/skin/images/footsearch.png" /></div>
+        </button>
+      </div>
+    </form>
+  </div>
+  <!-- searchContent over --> 
+  <!-- wap --> 
+  <img class="wapNavBtn" src="/skin/images/wapnavbtn.png" />
+  <div class="wapLanguage"> <a>
+    <div class="language on cn">CN</div>
+    </a> <a href="/">
+    <div class="language">EN</div>
+    </a> </div>
+  <!-- wap over --> 
+</div>
+<!-- header over -->
+</div>
+<!-- wap over -->
+</div>
+<!-- header over -->
+
+<link rel="stylesheet" type="text/css" href="/skin/css/index.css" />
+<!-- banner -->
+<div class="banner">
+  <div class="contents">
+    <div class="content" style="background-image:url(/uploads/allimg/logos/Ban1.jpg)">
+      <div class="container">
+        <div class="contentInfo">
+          <div class="sub"></div>
+          <div class="quan"></div>
+          <p class="title">文俊设计工作室</p>
+          <p class="info">设计是一场找寻自我内心的旅程，每个人都很清楚自己的需求,设计师只需帮他们拨开迷雾，找到正确方向，成就只属于他们自己的完美方案。</p>
+          <a href="/a/guanyuwomen/">
+          <div class="btn">点击了解更多</div>
+          </a> </div>
+      </div>
+    </div>
+    <div class="content" style="background-image:url(/uploads/allimg/logos/Ban2.jpg)">
+      <div class="container">
+        <div class="contentInfo">
+          <div class="sub"></div>
+          <div class="quan"></div>
+          <p class="title">全案家居设计</p>
+          <p class="info">我们秉承“专业团队、品质服务”的宗旨，汇聚了行业内高素质的设计精英，全程进行全案家居设计</p>
+          <a href="/a/jiejuefangan/zhinenjiaji/">
+          <div class="btn">点击了解更多</div>
+          </a> </div>
+      </div>
+    </div>
+    <div class="content" style="background-image:url(/uploads/allimg/logos/Ban3.jpg)">
+      <div class="container">
+        <div class="contentInfo">
+          <div class="sub"></div>
+          <div class="quan"></div>
+          <p class="title">全程跟踪服务</p>
+          <p class="info">为每位客户配备私属服务团队，保证服务的专业化程度</p>
+          <a href="#">
+          <div class="btn">点击了解更多</div>
+          </a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="bannerNav"> </div>
+  <img class="bannerBg" src="/skin/images/bannerbg.jpg" /> </div>
+<!-- banner over --> 
+<!-- about -->
+<div class="about">
+  <div class="container">
+    <div class="left"><img src="/uploads/allimg/Logos/wenjun.jpg" /></div>
+    <div class="right">
+      <p class="title">关于文俊</p>
+      <p class="info">{dede:sql sql='Select content from dede_arctype where id=24'} 
+        [field:content  function='cn_substr(html2text(@me),700)'/]
+        {/dede:sql}</p>
+      <a href="/a/guanyuwomen/rencaizhaopin/">
+      <div class="btn">查看更多 >></div>
+      </a> </div>
+  </div>
+</div>
+<!-- about over --> 
+<!-- about -->
+<div class="about">
+  <div class="container">
+    <div class="left"><img src="/uploads/allimg/Logos/studio.jpg" /></div>
+    <div class="right">
+      <p class="title">关于工作室</p>
+      <p class="info">{dede:sql sql='Select content from dede_arctype where id=1'} 
+        [field:content  function='cn_substr(html2text(@me),700)'/]
+        {/dede:sql}</p>
+      <a href="/a/guanyuwomen/">
+      <div class="btn">查看更多 >></div>
+      </a> </div>
+  </div>
+</div>
+<!-- about over --> 
+<!-- news -->
+<div class="news">
+  <div class="mainTitle">团队介绍</div>
+</div>
+<!-- other -->
+<div class="other">
+  <div class="container">
+    <div class="child"> <a href="http://www.wenjunsheji.com/a/guanyuwomen/rencaizhaopin/">
+      <div class="childImg"><img class="childImgc" src="/uploads/allimg/Heads/wen.png" /></div>
+      <p class="childTitle">文俊</p>
+      <p class="childInfo">设计总监</p>
+      </a> </div>
+    <div class="child">  <a href="#">
+      <div class="childImg"><img class="childImgc" src="/uploads/allimg/Heads/wang.png" /></div>
+      <p class="childTitle">王玮</p>
+      <p class="childInfo">软装设计师</p>
+      </a> </div>
+    <div class="child" id="vedioChild" onClick="vedioPlay('')">
+      <div class="childImg"> <img class="childImgc" src="/uploads/allimg/Heads/zheng.png" /> </div>
+      <p class="childTitle">郑思璋</p>
+      <p class="childInfo">3D场景构建师</p>
+    </div>
+  </div>
+</div>
+<!-- other over --> 
+ <div class="mainTitle">匠心营造</div>
+</div>
+<!-- other -->
+<div class="other">
+  <div class="container">
+    <div class="child"> <a href="http://www.wenjunsheji.com/a/guanyuwomen/rencaizhaopin/">
+      <div class="childImg"><img class="childImgc" src="/uploads/allimg/New/front01.jpg" /></div>
+      <p class="childTitle">家 • 生活</p>
+      <p class="childInfo">以美济心，以心造梦。生活淡然美好，希望可以从家开始，发现身边的美，感受身边的荣辱不惊。</p>
+      </a> </div>
+    <div class="child">  <a href="#">
+      <div class="childImg"><img class="childImgc" src="/uploads/allimg/New/front02.jpg" /></div>
+      <p class="childTitle">享 • 艺术</p>
+      <p class="childInfo">延续创作意图把对实际生活的感受与认识统一起来，酝酿、创造成为艺术形象，成就私人定制的完美空间。</p>
+      </a> </div>
+    <div class="child">  <a href="#">
+      <div class="childImg"><img class="childImgc" src="/uploads/allimg/New/front03.jpg" /></div>
+      <p class="childTitle">工 • 传承</p>
+      <p class="childInfo">遵循工艺的传承，是决定工程品质的第一要素，高品质施工工艺是保证空间设计达到理想效果的关键。</p>
+      </a> </div>
+    <div class="child">  <a href="#">
+      <div class="childImg"> <img class="childImgc" src="/uploads/allimg/New/front04.jpg" /> </div>
+      <p class="childTitle">质 • 把控</p>
+      <p class="childInfo">环保材质材料、文明施工现场、全案服务跟踪，是对我们每一个作品最好的尊重，也是对“家”的尊重。</p>
+    </div>
+  </div>
+</div>
+<!-- other over --> 
+<!-- work -->
+<div class="work">
+  <div class="workTitle">
+    <div class="mainTitle">经典案例</div>
+  </div>
+  <div class="container"> {dede:arclist row=6 titlelen=32 typeid='20'} <a href="[field:arcurl/]">
+    <div class="child" id="work[field:global name=autoindex runphp="yes"]@me=@me+1;[/field:global]"> <img class="childImg" src="[field:picname/]" />
+      <p class="childTitle">[field:title/]</p>
+      <img class="childFoot" src="/skin/images/projectfixed.png" /> <img class="childRight" src="/skin/images/projecticon.png" />
+      <div class="childHide"></div>
+      <img class="childSearch" src="/skin/images/projectsearch.png" />
+      <div class="childSearchBg"></div>
+    </div>
+    </a> {/dede:arclist} </div>
+</div>
+<!-- work over --> 
+<!-- work -->
+<div class="work">
+  <div class="workTitle">
+    <div class="mainTitle">实景案例</div>
+  </div>
+  <div class="container"> {dede:arclist row=6 titlelen=32 typeid='26'} <a href="[field:arcurl/]">
+    <div class="child" id="work[field:global name=autoindex runphp="yes"]@me=@me+1;[/field:global]"> <img class="childImg" src="[field:picname/]" />
+      <p class="childTitle">[field:title/]</p>
+      <img class="childFoot" src="/skin/images/projectfixed.png" /> <img class="childRight" src="/skin/images/projecticon.png" />
+      <div class="childHide"></div>
+      <img class="childSearch" src="/skin/images/projectsearch.png" />
+      <div class="childSearchBg"></div>
+    </div>
+    </a> {/dede:arclist} </div>
+</div>
+<!-- work over --> 
+<!-- footer --> 
+{dede:include filename="footer.htm"/} 
+<!-- footer over --> 
+<!-- js --> 
+<script src="/skin/js/jquery-1.11.0.min.js"></script> 
+<script src="/skin/js/base.js"></script> 
+<script src="/skin/js/index.js"></script> 
+<script src="/skin/js/indexnews.js"></script> 
+<script src="/skin/js/indexbanner.js"></script> 
+
+<!-- js over -->
+</body>
+</html>
+<script>
+	$(function(){
+		$("#btn").click(function(){
+			$("#post_1").submit();
+		});
+
+	
+		$("#btn_2").click(function(){
+			$("#post_2").submit();
+		});
+		$("#btn_3").click(function(){
+			$("#post_3").submit();
+		});
+	});
+
+
+
+</script>

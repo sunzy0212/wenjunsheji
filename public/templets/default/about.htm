@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" type="text/css" href="/skin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/skin/css/indexbanner.css" />
+</head>
+<body >
+<!-- header --> 
+{dede:include filename="head.htm"/} 
+<!-- header over -->
+</div>
+<!-- wap over -->
+</div>
+<!-- header over -->
+<link rel="stylesheet" type="text/css" href="/skin/css/about.css" />
+<!-- crumbs -->
+<div class="crumbs">
+  <div class="container">
+    <p class="title">{dede:field name='typename'/}</p>
+    <div class="childs"> <a href="/">首页</a><span>/</span><a>{dede:field name='typename'/}</a> </div>
+  </div>
+</div>
+<!-- crumbs over --> 
+<!-- main -->
+<div class="main">
+  <div class="container">
+    <div class="maxTitle"> <span class="title">{dede:field name='typename'/}</span>
+      <div class="sub"></div>
+    </div>
+    {dede:field.content/}
+    <div class="content"> 
+      <!-- left -->
+      <div class="left">
+        <div class="contentTitle"> <span class="title">全案家居设计：</span>
+          <div class="sub"></div>
+        </div>
+        <ul>
+          <li>追求国际化的视野与本土人居环境的完美结合</li>
+          <li>坚持设计为功能服务的信</li>
+          <li>致力于提升家居环境的品位内涵</li>
+        </ul>
+        <p class="info">依托强大的设计力量，准确把握家居环境流行趋势，装饰设计团队拥有前沿的设计理念和丰富的实操经验，善于运用熟练的设计手法表现创造性的灵感，在认真研究每一位客户的背景特点及个性化需求的基础上，融合东西文化艺术精髓和国际家居时尚元素，为客户量身定制出最适合的家居环境预案。专业的家装理财建议还能帮助客户合理使用资金，更好的控制装修预算。设计师全程配饰跟踪服务，更确保了功能、时尚和家居风格的全程统一。</p>
+        <div class="contentTitle"> <span class="title">全勤施工对接：</span>
+          <div class="sub"></div>
+        </div>
+        <p class="info">  施工方面，我们以规范的现场图纸落实，严格的工程验收，配合现场施工人员，主材对接人员等各个环节有序衔接，确保工程品质全程无忧。</p>
+        <ul>
+        </ul>
+        <div class="contentTitle"> <span class="title">全优软装配饰</span>
+          <div class="sub"></div>
+        </div>
+        <p class="info">文俊设计工作室推行“360度多对一私化服务流程”，为每位客户配备私属软装设计师。软装设计预案及配饰的选样，整合市场及网络资源，为客户选用最适合的家居搭配。也实现便捷高效的信息沟通和及时跟踪，让客户在装修的每一个细节中都能享受私属化的贴心服务。</p>
+        <ul>
+          <li>高效；</li>
+          <li>坦诚、公平、礼貌；</li>
+          <li>耐心倾听、快速响应；</li>
+          <li>提升团队的专业知识与技能。</li>
+        </ul>
+        <div class="contentTitle"> <span class="title">质量保证</span>
+          <div class="sub"></div>
+        </div>
+        <p class="info">我们用智慧、技能与真诚打造精品，把用户的期许变为美好的现实。</p>
+        <ul>
+        </ul>
+      </div>
+      <!-- left over --> 
+      <!-- right -->
+      <div class="right">
+        <div class="contentTitle"> <span class="title">联系我们</span>
+          <div class="sub"></div>
+        </div>
+        <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+          <input type="hidden" name="action" value="post" />
+          <input type="hidden" name="diyid" value="1" />
+          <input type="hidden" name="do" value="2" />
+          <p class="lineTitle">您的名字（必填）</p>
+          <div class="line">
+            <input type="text" name="name" class="inputText" />
+          </div>
+          <p class="lineTitle">您的邮箱（必填）</p>
+          <div class="line">
+            <input type="text" name="email" class="inputText" />
+          </div>
+          <p class="lineTitle">标题</p>
+          <div class="line">
+            <input type="text" name="bt" class="inputText" />
+          </div>
+          <p class="lineTitle">内容</p>
+          <div class="line">
+            <textarea name="nr" class="textArea"></textarea>
+          </div>
+          <input type="hidden" name="dede_fields" value="name,text;email,text;bt,text;nr,text" />
+          <input type="hidden" name="dede_fieldshash" value="f34de0eba88646549ae2f733b3d2d519" />
+          <p class="top15 captcha" id="captcha-container" style="  position: relative;padding-top: 25px;">
+            <input name="vdcode"  id="vdcode" width="50%" height="35" class="captcha-text" placeholder="请输右边入验证码(点击图片可刷新)" type="text" style="height:35px ;width:30%; border: 1px solid #ddd;margin-right: 20px;">
+            <img id="vdimgck" align="absmiddle" onclick="this.src=this.src+'?'"  width="30%" class="left15" height="60" alt="验证码" src="/include/vdimgck.php" title="点击刷新" style="border: 1px solid #ddd;  position:absolute;"> </p>
+          <div class="line">
+            <input type="submit" class="inputSub" value="发送" />
+          </div>
+        </form>
+      </div>
+      <!-- right over --> 
+    </div>
+     <script type="text/javascript" language="javascript">
+	//验证码 function changeAuthCode(){var num =newDate().getTime();varrand= Math.round(Math.random()*10000);    num = num +rand;$('#ver_code').css('visibility','visible');if($("#vdimgck")[0]){$("#vdimgck")[0].src ="../include/vdimgck.php?tag="+ num;}returnfalse;}</script> 
+    <!-- customer -->
+    <div class="customer">
+      <p class="title">客户评价：</p>
+      <div class="customerContent">
+        <div class="contents">
+          <div class="child">
+            <div class="childContent">
+              <p>实体店面装修得不错 </p>
+              <img class="pointer" src="/skin/images/pointer.png" /> </div>
+            <div class="childFoot">
+              <div class="childIcon"><img src="/uploads/allimg/logos/用户头像2.jpg" /></div>
+              <div class="childInfo">
+                <p class="childTitle">派斯宠物</p>
+                <p class="childEn">2016年4月13日</p>
+              </div>
+            </div>
+          </div>
+          <div class="child">
+            <div class="childContent">
+              <p>合作愉快！</p>
+              <img class="pointer" src="/skin/images/pointer.png" /> </div>
+            <div class="childFoot">
+              <div class="childIcon"><img src="/uploads/allimg/logos/用户头像1.jpg" /></div>
+              <div class="childInfo">
+                <p class="childTitle">游客账号</p>
+                <p class="childEn">2016年9月11日</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="customerBtn leftBtn" onClick="customerBtnClick('-')" src="/skin/images/left.png" /> <img class="customerBtn rightBtn" onClick="customerBtnClick('+')" src="/skin/images/right.png" /> </div>
+    <!-- customer over --> 
+    <!-- customerLogo -->
+    <div class="customerLogo">
+      <p class="title">正在深度合作的的供应商：</p>
+      <div class="customerLogoContent">
+        <div class="contents"> <a href="http://toto.com.cn/">
+          <div class="child"><img src="/uploads/allimg/logos/TOTO.png" /></div>
+          </a><a href="http://www.fotile.com/">
+          <div class="child"><img src="/uploads/allimg/logos/方太.png" /></div>
+          </a><a href="http://www.kohler.com.cn/">
+          <div class="child"><img src="/uploads/allimg/logos/科勒.png" /></div>
+          </a><a href="http://www.marcopolo.com.cn/">
+          <div class="child"><img src="/uploads/allimg/logos/马可波罗.png" /></div>
+          </a><a href="http://www.powerdekor.com.cn/">
+          <div class="child"><img src="/uploads/allimg/logos/圣象.png" /></div>
+           </a><a href="http://www.powerdekor.com.cn/">
+          </a> </div>
+      </div>
+      <img class="logoBtn leftBtn" onclick="customerLogoBtnClick('-')" src="/skin/images/logoleft.png" /> <img class="logoBtn rightBtn" onclick="customerLogoBtnClick('+')" src="/skin/images/logoright.png" /> </div>
+    <!-- customerLogo over --> 
+  </div>
+</div>
+<!-- main over --> 
+<!-- footer --> 
+{dede:include filename="footer.htm"/} 
+<!-- footer over --> 
+<!-- js --> 
+<script src="/skin/js/jquery-1.11.0.min.js"></script> 
+<script src="/skin/js/base.js"></script> 
+<script src="/skin/js/index.js"></script> 
+<script src="/skin/js/indexnews.js"></script> 
+<script src="/skin/js/indexbanner.js"></script> 
+
+<!-- js over -->
+</body>
+</html>
+<script>
+	$(function(){
+		$("#btn").click(function(){
+			$("#post_1").submit();
+		});
+
+	
+		$("#btn_2").click(function(){
+			$("#post_2").submit();
+		});
+		$("#btn_3").click(function(){
+			$("#post_3").submit();
+		});
+	});
+
+
+
+</script>
+<script src="/skin/js/about.js"></script>
+<script src="/skin/js/aboutcustomer.js"></script>
+<script src="/skin/js/aboutcustomerlogo.js"></script>
+<script src="/skin/js/jquery.validate.js"></script>
+<script src="/skin/js/app.validate.js"></script>

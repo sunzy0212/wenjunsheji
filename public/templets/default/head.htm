@@ -1,0 +1,81 @@
+<div class="header" > <a href="/"><img class="headerLogo" src="/skin/images/logo.png" /></a> 
+  <!-- list -->
+  <div class="list">
+    <div class="container">
+      <ul class="content">
+        <p class="listMTitle">Secret Menu</p>
+        <li class="listTitle">
+          <div class="title"> <img src="/skin/images/listpointer.png" /><a href="http://www.wenjunsheji.com/"><span>备用链接1</span></a>
+            <div class="pointer">
+              <div class="sub sub1"></div>
+              <div class="sub sub2"></div>
+            </div>
+          </div>
+          <ul class="listContent">
+          </ul>
+        </li>
+        <li class="listTitle">
+          <div class="title"> <img src="/skin/images/listpointer.png" /><a href="http://www.wenjunsheji.com/"><span>备用链接2</span></a>
+            <div class="pointer">
+              <div class="sub sub1"></div>
+              <div class="sub sub2"></div>
+            </div>
+          </div>
+          <ul class="listContent">
+          </ul>
+        </li>
+        <li class="listTitle">
+          <div class="title"> <img src="/skin/images/listpointer.png" /><a href="www.wenjunsheji.com"><span>备用链接3</span></a>
+            <div class="pointer">
+              <div class="sub sub1"></div>
+              <div class="sub sub2"></div>
+            </div>
+          </div>
+          <ul class="listContent">
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="addBtn">
+      <div class="sub1 sub"></div>
+      <div class="sub2 sub"></div>
+    </div>
+  </div>
+  <!-- list over -->
+  <ul class="nav">
+    <div class="navTop"></div>
+    <li class="child"> <a href="/">
+      <p class="title">首页</p>
+      </a> </li>
+    {dede:channelartlist typeid='top' currentstyle='on'}
+    <li class="child {dede:field.currentstyle/}"> <a href="{dede:field name='typeurl'/}">
+      <p class="title">{dede:field name='typename'/}</p>
+      </a>
+      <ul class="childContent">
+        {dede:channel type='son' noself='yes'} <a href="[field:typeurl/]">
+        <li class="childContentLi">[field:typename/]</li>
+        </a> {/dede:channel}
+      </ul>
+      <img class="wapNavPointer" src="/skin/images/wapnavpointer.jpg" /> </li>
+    {/dede:channelartlist}
+      </a> </li>
+    <li class="child navChildSearch" style="line-height:px;"> <img   style="margin-top: 53px;" class="seachIcon" src="/skin/images/seachicon.png" /> </li>
+  </ul>
+  <!-- searchContent -->
+  <div class="searchContent">
+    <form  name="formsearch" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+      <div class="seach">
+        <input type="hidden" name="kwtype" value="0" />
+        <input type="text" name="q" class="seachText" placeholder="搜索" />
+        <button type="submit" class="search-submit">
+        <div id="btn_2" class="btn"><img src="/skin/images/footsearch.png" /></div>
+        </button>
+      </div>
+    </form>
+  </div>
+  <!-- searchContent over --> 
+  <!-- wap --> 
+  <img class="wapNavBtn" src="/skin/images/wapnavbtn.png" />
+    </a> </div>
+  <!-- wap over --> 
+</div>

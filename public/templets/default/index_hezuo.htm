@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" type="text/css" href="/skin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/skin/css/indexbanner.css" />
+</head>
+<body >
+<!-- header -->
+{dede:include filename="head.htm"/}
+<!-- header over -->
+</div>
+<!-- wap over -->
+</div>
+<!-- header over -->
+
+<link rel="stylesheet" type="text/css" href="/skin/css/partners.css" />
+<!-- crumbs -->
+<div class="crumbs">
+  <div class="container">
+     <p class="title">{dede:field name='typename'/}</p>
+    <div class="childs"> {dede:field name='position'/} </div>
+  </div>
+</div>
+<!-- crumbs over --> 
+<!-- main -->
+<div class="main">
+  <div class="container">
+    <div class="maxTitle"> <span class="title">我们的合作伙伴</span>
+      <div class="sub"></div>
+    </div>
+    <div class="banner"></div>
+    <p class="mainInfo">我们相信，优秀的合作伙伴是未来取得成功的关键。不管您是系统集成商、独立的软件工程师、分销商或者其他类型的技术提供商，我们都乐意与您合作，为我们的客户提供不断完善的专门的解决方案。以下是目前与我们有常规性合作的企业。</p>
+    {dede:field.content/}
+    <div class="mainFoot">
+      <div class="footTitle"> <span class="title">联系我们</span>
+        <div class="sub"></div>
+      </div>
+      <div class="left">
+       <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+          <input type="hidden" name="action" value="post" />
+          <input type="hidden" name="diyid" value="1" />
+          <input type="hidden" name="do" value="2" />
+          <p class="title">您的名字</p>
+          <div class="line">
+            <input type="text" name="name" class="inputText" />
+          </div>
+          <p class="title">您的邮件</p>
+          <div class="line">
+            <input type="text" name="email" class="inputText" />
+          </div>
+          <p class="title">标题</p>
+          <div class="line">
+            <input type="text" name="bt"  class="inputText" />
+          </div>
+          <p class="title">留言内容</p>
+          <p class="top15 captcha" id="captcha-container" style="  position: relative;padding-top: 25px;">
+          <div class="line">
+            <textarea name="nr" class="textArea"></textarea>
+          </div>
+          <input type="hidden" name="dede_fields" value="name,text;email,text;bt,text;nr,text" />
+          <input type="hidden" name="dede_fieldshash" value="f34de0eba88646549ae2f733b3d2d519" />
+          <p class="top15 captcha" id="captcha-container" style="  position: relative;padding-top: 25px;">
+            <input name="vdcode"  id="vdcode" width="50%" height="35" class="captcha-text" placeholder="请输右边入验证码(点击图片可刷新)" type="text" style="height:35px ;width:30%; border: 1px solid #ddd;margin-right: 20px;">
+            <img id="vdimgck" align="absmiddle" onclick="this.src=this.src+'?'"  width="30%" class="left15" height="60" alt="验证码" src="/include/vdimgck.php" title="点击刷新" style="border: 1px solid #ddd;  position:absolute;"> </p>
+          <div class="line">
+            <input type="submit" class="inputSub" value="发送" />
+          </div>
+        </form>
+      </div>
+      <div class="right"> <img src="/skin/images/main.jpg" /> </div>
+    </div>
+  </div>
+</div>
+<!-- main over --> 
+<!-- footer -->
+{dede:include filename="footer.htm"/} 
+<!-- footer over --> 
+<!-- js --> 
+<script src="/skin/js/jquery-1.11.0.min.js"></script> 
+<script src="/skin/js/base.js"></script> 
+<script src="/skin/js/index.js"></script> 
+<script src="/skin/js/indexnews.js"></script> 
+<script src="/skin/js/indexbanner.js"></script> 
+
+<!-- js over -->
+</body>
+</html>
+<script>
+	$(function(){
+		$("#btn").click(function(){
+			$("#post_1").submit();
+		});
+
+	
+		$("#btn_2").click(function(){
+			$("#post_2").submit();
+		});
+		$("#btn_3").click(function(){
+			$("#post_3").submit();
+		});
+	});
+
+
+
+</script>
+<script src="/skin/js/about.js"></script>
+<script src="/skin/js/aboutcustomer.js"></script>
+<script src="/skin/js/aboutcustomerlogo.js"></script>
+<script src="/skin/js/jquery.validate.js"></script>
+<script src="/skin/js/app.validate.js"></script>

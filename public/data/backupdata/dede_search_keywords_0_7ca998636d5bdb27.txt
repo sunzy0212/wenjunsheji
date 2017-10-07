@@ -1,0 +1,5 @@
+INSERT INTO `dede_search_keywords` VALUES('1','按时打算打算','按时打算打算 打算 按时','1','0','1444536451','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','阿斯顿发生','阿斯顿发生 发生 阿斯顿','1','0','1444536542','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','爱上大声地','爱上大声地 大声 爱上','1','0','1444537609','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','阿撒打算','阿撒打算 打算 阿撒','1','0','1444622614','0','0');
+INSERT INTO `dede_search_keywords` VALUES('5','hdl','hdl','1','8','1444623143','0','0');

@@ -1,0 +1,334 @@
+﻿/* dede58.com 做最好的织梦模板 */
+.mainHead .title {
+	line-height:40px;
+	color:#333333;
+	font-size:28px;
+}
+.mainHead .time {
+	font-size:14px;
+	color:#999999;
+	line-height:24px;
+	padding-top:7;
+}
+.mainContent img {
+	max-width: 100% !important;
+	height: auto !important;
+}
+.mainContent input[type='image'] {
+	max-width: 100%;
+	height: auto !important;
+}
+.mainContent p {
+	color:#666;
+	font-size:14px;
+	line-height:24px;
+	padding:1px 0;
+}
+.mainContent div {
+	color:#666;
+	font-size:14px;
+	line-height:24px;
+	padding:1px 0;
+}
+.mainContent span {
+	color:#666;
+	font-size:14px;
+	line-height:24px;
+	padding:1px 0;
+}
+.mainFoot {
+	position:relative;
+	text-align:center;
+	height:78px;
+	border-top:1px solid #bebebe;
+	border-bottom:1px solid #bebebe;
+	margin:60px 0;
+}
+.mainFoot .child {
+	display:inline-block;
+*display:inline;
+*zoom:1;
+	position:relative;
+	width:193px;
+	height:100%;
+	border-left:1px solid #ddd;
+}
+.mainFoot a:nth-child(1) .child {
+	border-left:0;
+}
+.mainFoot .child .childIcon, .mainFoot .child .childInfo {
+	display:inline-block;
+*display:inline;
+*zoom:1;
+	vertical-align:middle;
+}
+.mainFoot .child .childIcon {
+	margin-top:20px;
+	position:relative;
+	background:#666;
+	width:38px;
+	height:38px;
+	text-align:center;
+	line-height:38px;
+	border-radius:38px;
+	-moz-border-radius:38px;
+	-ms-border-radius:38px;
+	-o-border-radius:38px;
+	-webkit-border-radius:38px;
+}
+.mainFoot .child .childIcon img {
+	vertical-align:middle;
+}
+.mainFoot .child .childIcon img {
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.mainFoot .child:hover .childIcon img {
+	transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+}
+.mainFoot .child .childInfo {
+	padding-left:12px;
+	text-align:left;
+	margin-top: 18px;
+}
+.mainFoot .child .childInfo p {
+	color:#666;
+	font-size:14px;
+}
+.main .about {
+	position:relative;
+	padding:0px;
+}
+.main .about:after {
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility:hidden;
+}
+.main .about .aboutTitle {
+	position:relative;
+	height:24px;
+	padding-bottom:40px;
+}
+.main .about .aboutTitle span {
+	position:relative;
+	z-index:1;
+	line-height:24px;
+	font-size:18px;
+	color:#333333;
+	padding-right:20px;
+	background:#fff;
+}
+.main .about .aboutTitle .sub {
+	position:absolute;
+	height:6px;
+	background:#e8e8e8;
+	top:10px;
+	left:0px;
+	width:100%;
+}
+.main .about .child {
+	position:relative;
+	float:left;
+	width:19%;
+	margin-right:1%;
+}
+.main .about .child .childImg {
+	width:100%;
+	height:auto;
+}
+.main .about .child .childImg {
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.main .about .child .childImg:hover {
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	-o-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+}
+.main .about .child .childImg img {
+	width:100%;
+	height:auto;
+	vertical-align:middle;
+}
+.main .about .child .childTitle {
+	color:#666;
+	font-size:16px;
+	line-height:24px;
+	text-align:center;
+}
+.main .about .child .childTitle p {
+	padding:26px 0;
+}
+.bdsharebuttonbox {
+	position:absolute;
+	top:0;
+	left:0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.bdsharebuttonbox a {
+	display:none;
+}
+.bdsharebuttonbox .bds_weixin {
+	width: 100%;
+	height: 100%;
+	display:block;
+	opacity:0 !important;
+	filter: alpha(opacity=0) !important;
+}
+@media (max-width: 639px) {
+.mainHead .title {
+	line-height:26px;
+	font-size:20px;
+}
+.mainHead .time {
+	font-size:12px;
+	line-height:20px;
+	padding-top:4;
+}
+.mainContent p {
+	font-size:12px;
+	line-height:20px;
+	padding:6px 0;
+}
+.mainContent div {
+	font-size:12px;
+	line-height:20px;
+	padding:6px 0;
+}
+.mainContent span {
+	font-size:12px;
+	line-height:20px;
+	padding:6px 0;
+}
+.main .mainFoot {
+	height:60px;
+	margin:20px 0 0 0;
+}
+.main .mainFoot .child {
+	width:22%;
+}
+.main .mainFoot .child .childIcon {
+	margin-top:10px;
+	width:38px;
+	height:38px;
+	line-height:38px;
+	border-radius:38px;
+	-moz-border-radius:38px;
+	-ms-border-radius:38px;
+	-o-border-radius:38px;
+	-webkit-border-radius:38px;
+}
+.main .mainFoot .child .childInfo {
+	display:none;
+}
+.main .about {
+	display:none;
+}
+}
+@media (min-width: 640px) and (max-width:1023px ) {
+.mainHead .title {
+	line-height:40px;
+	font-size:28px;
+}
+.mainHead .time {
+	font-size:14px;
+	line-height:24px;
+	padding-top:7;
+}
+.mainContent p {
+	font-size:14px;
+	line-height:24px;
+	padding:8px 0;
+}
+.mainContent div {
+	font-size:14px;
+	line-height:24px;
+	padding:8px 0;
+}
+.mainContent span {
+	font-size:14px;
+	line-height:24px;
+	padding:8px 0;
+}
+.main .mainFoot {
+	height:78px;
+	margin:40px 0;
+}
+.main .mainFoot .child {
+	width:24%;
+}
+.main .mainFoot .child .childIcon {
+	margin-top:20px;
+	width:38px;
+	height:38px;
+	line-height:38px;
+	border-radius:38px;
+	-moz-border-radius:38px;
+	-ms-border-radius:38px;
+	-o-border-radius:38px;
+	-webkit-border-radius:38px;
+}
+.main .mainFoot .child .childInfo {
+	padding-left:12px;
+	margin-top: 18px;
+}
+.main .mainFoot .child .childInfo p {
+	font-size:14px;
+}
+.main .about {
+	padding:0px;
+}
+.main .about .aboutTitle {
+	height:24px;
+	padding-bottom:20px;
+}
+.main .about .aboutTitle span {
+	line-height:24px;
+	font-size:18px;
+	padding-right:20px;
+}
+.main .about .aboutTitle .sub {
+	height:6px;
+	top:10px;
+}
+.main .about .child {
+	width:19%;
+	margin-right:1%;
+}
+.main .about .child .childTitle {
+	font-size:16px;
+	line-height:24px;
+}
+.main .about .child .childTitle p {
+	padding:14px 0;
+}
+}
+@media (min-width: 1024px) and (max-width:1199px ) {
+.container {
+	width:1000px
+}
+}
+@media (min-width: 1200px) and (max-width:1439px ) {
+.container {
+	width:1000px
+}
+}
+@media (min-width: 1440px) and (max-width:1920px ) {
+.container {
+	width:1000px
+}
+}

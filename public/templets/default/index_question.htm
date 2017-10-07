@@ -1,0 +1,788 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" type="text/css" href="/skin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/skin/css/indexbanner.css" />
+</head>
+<body >
+<!-- header --> 
+{dede:include filename="head.htm"/} 
+<!-- header over -->
+</div>
+<!-- wap over -->
+</div>
+<!-- header over -->
+
+<link rel="stylesheet" type="text/css" href="/skin/css/question.css" />
+<!-- crumbs -->
+<div class="crumbs">
+  <div class="container">
+    <p class="title">{dede:field name='typename'/}</p>
+    <div class="childs"> {dede:field name='position'/} </div>
+  </div>
+</div>
+<!-- crumbs over --> 
+<!-- main -->
+<div class="main">
+  <div class="container">
+    <div class="banner"></div>
+    <p class="title1">问题分类</p>
+    <div class="mainNav">
+      <div class="child on">所有</div>
+      <div class="child">智能家居</div>
+      <div class="child">智能建筑</div>
+      <div class="child">智能酒店 </div>
+      <div class="child">无线产品</div>
+    </div>
+    <div class="content" style="display:block;">
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>如何购买你们的产品？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>请拨打我们的销售热线</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>谁都可以安装织梦58的系统吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>由于织梦58的系统控制着常规电压的电气设备，例如灯具、供暖设备等等，应该由经过培训并获得资质的专业人员进行安装。    在安装完成之后，就可以通过墙装的美观大方的面板、智能手机或者平板电脑轻松控制家里的各种设备。当然，如果是在移动设备上操作，不管您是在家里还是在世界上的哪个角落，都可以管理和掌控家居设备。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>您们提供定制的解决方案吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p> 织梦58的解决方案可以根据用户的需求进行深度定制和灵活扩展。用户可以决定智能系统覆盖的范围、控制目标和功能（包括面板的按键功能）。一般情况下我们推荐使用标准版的控制终端。但我们有时候也会接触到一些大型项目，需要对智能面板的外观进行定制的。例如，酒店通常希望定制墙装控制面板的外观，以搭配他们的企业品牌形象或者装修风格。如果您有这方面的要求，请与我们联系。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>您们是否提供KNX产品或者解决方案？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>是的。我们提供全系的KNX产品。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>如果以后我要扩展系统怎么办？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>没有问题！织梦58采用的是总线系统。也就是说只要系统布线还在就可以添加更多的模块和功能。安装相关的系统模块和调试会花费一点点时间。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>织梦58使用的是什么技术？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>我们大多数产品使用的是总线通信协议织梦58 Buspro。Buspro可以与大多数常见的家电设备连接，把家电系统转换成为一个智能网络，让用户可以通过墙装控制面板、智能手机或者平板电脑等用户终端管理和控制自己的家居。用户可以选择智能家居系统覆盖面积的大小，也可以对系统的功能进行个性化设置。织梦58设备之间通过4芯电缆进行连接，比如KNX的4芯电缆（双绞线）。 织梦58无线产品也采用Buspro协议进行通信，无线智能家居解决方案系统采用无线方式组网，无需中性线连接。用户在安装智能家居系统时可以直接把原有的传统开关面</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>在开始智能家居项目前我需要了解什么？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>如果您的工程允许重新布线，比如翻新或者是新建的房子，那么最好的选择是使用织梦58 Buspro的有线系统。有线系统会比无线系统更加稳定、功能更加强大。	织梦58 Buspro可以与常规的电灯、电动窗帘、卷帘、闭路电视、智能门锁以及其他设备，建议由专业的电工或者指定的安装服务人员进行布线。如果有需要，请联系当地的办事处安排专业安装人员。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>什么是智能建筑？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>智能建筑是指空调、供暖、照明、音乐系统、安防系统以及其他电气设备连接在一起可以进行相互通信，而整个系统可以通过墙装的面板、智能手机、平板电脑或者等等的终端进行控制，例如，您可以在回到家前15分钟先把客厅的空调打开；又或者系统可以自动运行某些功能，例如，室外阳光过于强烈时，系统会自动关闭部分窗帘。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的无线产品采用的是什么技术？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>Buspro无线智能家居解决方案采用IEEE802.15.4标准，系统所有的无线设备都可以充当一个信号中继站，与其他无线设备相互连接，一起组成一个网格式（Mesh）网络结构。系统的无线网关确保无线智能家居解决方案与Buspro所有的功能完全兼容，有线与无线系统可以同时安装在同一个项目中正常使用。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>随便一个品牌的电器都可以接入系统吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>我们目前可以支持大多数常见的品牌。理论上只要我们可以拿到电器的标准，我们都可以对接。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的智能家居系统智能在哪里？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>我们的系统允许用户通过手机、平板电脑、智能面板等多种终端对家电系统进行控制和管理。也可以部分地进行自动管理，减少人的参与。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>一个开关面板可以控制多少个设备？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>我们的面板理论上可以控制接入系统的所有设备。例如，一个面板可以控制一个区域的空调、电灯、通风设备、影音设备等等。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的系统通过什么来控制家电设备？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>我们可以通过手机、平板电脑、电脑、墙装智能面板和智能遥控器进行控制。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>我可以把家里现有的安防摄像头接到智能控制系统里吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>指定品牌的摄像头可以。我们也有自有品牌的安防摄像头。建议用户购买的时候咨询我们的销售或者技术人员。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的系统用在会议室里可以控制什么设备？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>常见的电器设备都可以。例如，投影机、投影屏幕、电灯、窗帘、电视、音乐等等。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们有做了什么案例吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>国内最新有最近的案例有广州圆大厦、天环广场。国外有澳大利亚的建筑师协会大楼、瑞士洛桑商业中心大厦。更早些时候有案例有韩国工业联合会总部大楼、德国宝马世界博物馆等等。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们做过哪些品牌的酒店？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>织梦58已为希尔顿、喜达屋、雅高、温德姆、洲际等等世界知名酒店企业提供智能化升级服务。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的智能酒店解决方案是如何提高酒店的管理与服务质量的？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>智能系统的一些自动化功能可以帮助酒店减少人力成本和能源成本，同时可以让酒店服务人员更加快速地响应客人的要求。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的无线系统用的是什么技术？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>织梦58无线智能家居解决方案采用Mesh组网技术，系统中所有的无线设备都可以充当一个信号中继站，与其他无线设备相互连接，一起组成一个网格式网络结构。Mesh网络稳定可靠。如果其中一个节点坏掉，其它节点仍然可以直接地、或者通过更多的中间节点进行相互通信。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们使用的是什么无线协议？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>IEEE 802.15.4标准协议，MESH无线组网方式。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的无线协议支持多少种频率？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>WPAN: 780 MHz ~ 794 MHz； SRD: 864 MHz ~ 882 MHz&lt;br/&gt;； ISM: 904 MHz ~ 928 MHz</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>无线设备之间是通过Wi-Fi进行连接吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>不是。无线设备之间通过Buspro无线信号连接。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>无线信号的有效传输距离是多少？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>无遮挡状态下有效距离为50米。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们无线系统的安全机制是怎么样的，会不会被入侵？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>我们的无线系统采用AES128位加密算法，确保不被入侵。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>如果我有一个无线面板安装在床边，辐射会对人体有害吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>无线面板的信号功率与手机的通话信号强度差不多。（织梦58无线面板： -90dBm ~ +10dBm，手机：-90dBm ~ 0dBm）。当然，目前没有直接的证据说明手机信号对人体有害。</p>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>在开始智能家居项目前我需要了解什么？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>如果您的工程允许重新布线，比如翻新或者是新建的房子，那么最好的选择是使用织梦58 Buspro的有线系统。有线系统会比无线系统更加稳定、功能更加强大。	织梦58 Buspro可以与常规的电灯、电动窗帘、卷帘、闭路电视、智能门锁以及其他设备，建议由专业的电工或者指定的安装服务人员进行布线。如果有需要，请联系当地的办事处安排专业安装人员。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>随便一个品牌的电器都可以接入系统吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>我们目前可以支持大多数常见的品牌。理论上只要我们可以拿到电器的标准，我们都可以对接。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的智能家居系统智能在哪里？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>我们的系统允许用户通过手机、平板电脑、智能面板等多种终端对家电系统进行控制和管理。也可以部分地进行自动管理，减少人的参与。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的系统通过什么来控制家电设备？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>我们可以通过手机、平板电脑、电脑、墙装智能面板和智能遥控器进行控制。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>我可以把家里现有的安防摄像头接到智能控制系统里吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>指定品牌的摄像头可以。我们也有自有品牌的安防摄像头。建议用户购买的时候咨询我们的销售或者技术人员。</p>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>谁都可以安装织梦58的系统吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>由于织梦58的系统控制着常规电压的电气设备，例如灯具、供暖设备等等，应该由经过培训并获得资质的专业人员进行安装。    在安装完成之后，就可以通过墙装的美观大方的面板、智能手机或者平板电脑轻松控制家里的各种设备。当然，如果是在移动设备上操作，不管您是在家里还是在世界上的哪个角落，都可以管理和掌控家居设备。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>您们提供定制的解决方案吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p> 织梦58的解决方案可以根据用户的需求进行深度定制和灵活扩展。用户可以决定智能系统覆盖的范围、控制目标和功能（包括面板的按键功能）。一般情况下我们推荐使用标准版的控制终端。但我们有时候也会接触到一些大型项目，需要对智能面板的外观进行定制的。例如，酒店通常希望定制墙装控制面板的外观，以搭配他们的企业品牌形象或者装修风格。如果您有这方面的要求，请与我们联系。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>您们是否提供KNX产品或者解决方案？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>是的。我们提供全系的KNX产品。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>如果以后我要扩展系统怎么办？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>没有问题！织梦58采用的是总线系统。也就是说只要系统布线还在就可以添加更多的模块和功能。安装相关的系统模块和调试会花费一点点时间。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>什么是智能建筑？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>智能建筑是指空调、供暖、照明、音乐系统、安防系统以及其他电气设备连接在一起可以进行相互通信，而整个系统可以通过墙装的面板、智能手机、平板电脑或者等等的终端进行控制，例如，您可以在回到家前15分钟先把客厅的空调打开；又或者系统可以自动运行某些功能，例如，室外阳光过于强烈时，系统会自动关闭部分窗帘。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的系统用在会议室里可以控制什么设备？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>常见的电器设备都可以。例如，投影机、投影屏幕、电灯、窗帘、电视、音乐等等。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们有做了什么案例吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>国内最新有最近的案例有广州圆大厦、天环广场。国外有澳大利亚的建筑师协会大楼、瑞士洛桑商业中心大厦。更早些时候有案例有韩国工业联合会总部大楼、德国宝马世界博物馆等等。</p>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>如何购买你们的产品？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>请拨打我们的销售热线</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们做过哪些品牌的酒店？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>织梦58已为希尔顿、喜达屋、雅高、温德姆、洲际等等世界知名酒店企业提供智能化升级服务。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的智能酒店解决方案是如何提高酒店的管理与服务质量的？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>智能系统的一些自动化功能可以帮助酒店减少人力成本和能源成本，同时可以让酒店服务人员更加快速地响应客人的要求。</p>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>织梦58使用的是什么技术？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>我们大多数产品使用的是总线通信协议织梦58 Buspro。Buspro可以与大多数常见的家电设备连接，把家电系统转换成为一个智能网络，让用户可以通过墙装控制面板、智能手机或者平板电脑等用户终端管理和控制自己的家居。用户可以选择智能家居系统覆盖面积的大小，也可以对系统的功能进行个性化设置。织梦58设备之间通过4芯电缆进行连接，比如KNX的4芯电缆（双绞线）。 织梦58无线产品也采用Buspro协议进行通信，无线智能家居解决方案系统采用无线方式组网，无需中性线连接。用户在安装智能家居系统时可以直接把原有的传统开关面</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的无线产品采用的是什么技术？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>Buspro无线智能家居解决方案采用IEEE802.15.4标准，系统所有的无线设备都可以充当一个信号中继站，与其他无线设备相互连接，一起组成一个网格式（Mesh）网络结构。系统的无线网关确保无线智能家居解决方案与Buspro所有的功能完全兼容，有线与无线系统可以同时安装在同一个项目中正常使用。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>一个开关面板可以控制多少个设备？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>我们的面板理论上可以控制接入系统的所有设备。例如，一个面板可以控制一个区域的空调、电灯、通风设备、影音设备等等。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的无线系统用的是什么技术？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>织梦58无线智能家居解决方案采用Mesh组网技术，系统中所有的无线设备都可以充当一个信号中继站，与其他无线设备相互连接，一起组成一个网格式网络结构。Mesh网络稳定可靠。如果其中一个节点坏掉，其它节点仍然可以直接地、或者通过更多的中间节点进行相互通信。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们使用的是什么无线协议？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>IEEE 802.15.4标准协议，MESH无线组网方式。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们的无线协议支持多少种频率？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>WPAN: 780 MHz ~ 794 MHz； SRD: 864 MHz ~ 882 MHz&lt;br/&gt;； ISM: 904 MHz ~ 928 MHz</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>无线设备之间是通过Wi-Fi进行连接吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>不是。无线设备之间通过Buspro无线信号连接。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>无线信号的有效传输距离是多少？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>无遮挡状态下有效距离为50米。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>你们无线系统的安全机制是怎么样的，会不会被入侵？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>我们的无线系统采用AES128位加密算法，确保不被入侵。</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childTitle">
+          <div class="childIcon">
+            <div class="sub sub1"></div>
+            <div class="sub sub2"></div>
+          </div>
+          <div class="title">
+            <p>如果我有一个无线面板安装在床边，辐射会对人体有害吗？</p>
+          </div>
+        </div>
+        <div class="childContent">
+          <p>无线面板的信号功率与手机的通话信号强度差不多。（织梦58无线面板： -90dBm ~ +10dBm，手机：-90dBm ~ 0dBm）。当然，目前没有直接的证据说明手机信号对人体有害。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- main over --> 
+<!-- footer --> 
+{dede:include filename="footer.htm"/} 
+<!-- footer over --> 
+<!-- js --> 
+<script src="/skin/js/jquery-1.11.0.min.js"></script> 
+<script src="/skin/js/base.js"></script> 
+<script src="/skin/js/index.js"></script> 
+<script src="/skin/js/indexnews.js"></script> 
+<script src="/skin/js/indexbanner.js"></script> 
+
+<!-- js over -->
+</body>
+</html>
+<script>
+	$(function(){
+		$("#btn").click(function(){
+			$("#post_1").submit();
+		});
+
+	
+		$("#btn_2").click(function(){
+			$("#post_2").submit();
+		});
+		$("#btn_3").click(function(){
+			$("#post_3").submit();
+		});
+	});
+
+
+
+</script>
+<script src="/skin/js/question.js"></script>

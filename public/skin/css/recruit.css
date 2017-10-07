@@ -1,0 +1,87 @@
+﻿/* dede58.com 做最好的织梦模板 */
+.main .left {
+	width:540px;
+	height:100%;
+	line-height:100%;
+	float:left;
+}
+.main .left img {
+	width:100%;
+	vertical-align:middle;
+	padding-top:100px;
+}
+.main .right {
+	width:650px;
+	float:right;
+	padding-top:50px;
+}
+.main .right p {
+	line-height:24px;
+	padding-bottom:20px;
+	color:#666;
+	font-size:14px;
+	font-size:14px;
+}
+.main .right p a {
+	color:#7E308D;
+}
+@media (max-width: 639px) {
+.main .left {
+	width:100%;
+	height:auto;
+	line-height:normal;
+	float:none;
+	text-align:center
+}
+.main .left img {
+	padding-top:20px;
+}
+.main .right {
+	width:100%;
+	float:none;
+	padding-top:10px;
+}
+.main .right p {
+	line-height:20px;
+	padding-bottom:10px;
+	font-size:12px;
+}
+}
+@media (min-width: 640px) and (max-width:1023px ) {
+.main .left {
+	width:100%;
+	height:auto;
+	line-height:normal;
+	float:none;
+	text-align:center
+}
+.main .left img {
+	padding-top:40px;
+}
+.main .right {
+	width:100%;
+	float:none;
+	padding-top:20px;
+}
+.main .right p {
+	line-height:24px;
+	padding-bottom:20px;
+	font-size:14px;
+}
+}
+@media (min-width: 1024px) and (max-width:1199px ) {
+.main .left {
+	width:440px;
+}
+.main .left img {
+	padding-top:100px;
+}
+.main .right {
+	width:530px;
+	padding-top:50px;
+}
+}
+@media (min-width: 1200px) and (max-width:1439px ) {
+}
+@media (min-width: 1440px) and (max-width:1920px ) {
+}

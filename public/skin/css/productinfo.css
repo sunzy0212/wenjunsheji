@@ -1,0 +1,770 @@
+﻿/* dede58.com 做最好的织梦模板 */
+
+
+.main {
+	padding:68px 0 0 0;
+}
+.main .head {
+	padding-bottom:70px;
+}
+.main .head:after {
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility:hidden;
+}
+.main .head .left {
+	float:left;
+	position:relative;
+	width:660px;
+}
+.main .head .left .banner {
+	height:500px;
+	border:1px solid #e8e8e8;
+	overflow:hidden;
+	margin: 0 auto;
+	width: 500px;
+}
+.main .head .left .banner img {
+	display:none;
+	max-width:100%;
+	max-height:100%;
+}
+.main .head .left .childs {
+	position:relative;
+	width:630px;
+	height:150px;
+	overflow: hidden;
+	padding: 12px 29px 0 37px;
+}
+.main .head .left .childs:after {
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility:hidden;
+}
+.main .head .left .child {
+	cursor:pointer;
+	float:left;
+	width:148px;
+	height:148px;
+	border:1px solid #e8e8e8;
+	margin-right:6px;
+}
+.main .head .left .child:nth-child(4) {
+	margin-right:0;
+}
+.main .head .left .child img {
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+}
+.main .head .left .leftBtn {
+	position: absolute;
+	left: 0;
+	top: 50px;
+}
+.main .head .left .rightBtn {
+	position: absolute;
+	right: 0px;
+	top: 50px;
+}
+.main .head .left .logoBtn {
+	cursor:pointer;
+}
+.main .head .right {
+	float:right;
+	width:445px;
+	color:#666;
+	font-size:16px;
+}
+.main .head .right .title {
+	line-height:26px;
+	color:#333333;
+	font-size:20px;
+	padding-bottom:37px;
+}
+.main .head .right .sub {
+	height:4px;
+	border-top:1px solid #e3e3e3;
+	border-bottom:1px solid #e3e3e3;
+}
+.main .head .right .info {
+	padding:34px 0 52px 0;
+	line-height: 24px;
+}
+.main .head .right .tag {
+	line-height:24px;
+}
+.main .content .right p {
+	padding:0;
+	line-height:24px;
+	color:#666;
+	font-size:14px;
+}
+.main .content .right div {
+	padding:0;
+	line-height:24px;
+	color:#666;
+	font-size:14px;
+}
+.main .content:after {
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility:hidden;
+}
+.main .content .left {
+	width:280px;
+	float:left;
+}
+.main .content .left li {
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #d6d6d6;
+	color:#666;
+	font-size:14px;
+	cursor:pointer;
+}
+.main .content .right {
+	position:relative;
+	width:780px;
+	padding:28px 36px;
+	float:right;
+	border:1px solid #dedede;
+}
+.main .content .right .child {
+	display:none;
+}
+.main .content .right .title {
+	color:#333333;
+	font-size:16px;
+	line-height:22px;
+}
+.main .content .right .info {
+	padding:22px 0;
+	line-height:22px;
+	color:#666;
+	font-size:14px;
+}
+.main .foot {
+	position:relative;
+	text-align:center;
+	height:78px;
+	border-top:1px solid #bebebe;
+	border-bottom:1px solid #bebebe;
+	margin:60px 0;
+}
+.main .foot .child {
+	display:inline-block;
+*display:inline;
+*zoom:1;
+	position:relative;
+	width:193px;
+	height:100%;
+	border-left:1px solid #ddd;
+}
+.main .foot a:nth-child(1) .child {
+	border-left:0;
+}
+.main .foot .child .childIcon, .main .foot .child .childInfo {
+	display:inline-block;
+*display:inline;
+*zoom:1;
+	vertical-align:middle;
+}
+.main .foot .child .childIcon {
+	margin-top:20px;
+	position:relative;
+	background:#666;
+	width:38px;
+	height:38px;
+	text-align:center;
+	line-height:38px;
+	border-radius:38px;
+	-moz-border-radius:38px;
+	-ms-border-radius:38px;
+	-o-border-radius:38px;
+	-webkit-border-radius:38px;
+}
+.main .foot .child .childIcon img {
+	vertical-align:middle;
+}
+.main .foot .child .childIcon img {
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.main .foot .child:hover .childIcon img {
+	transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+}
+.main .foot .child .childInfo {
+	padding-left:12px;
+	text-align:left;
+	margin-top: 18px;
+}
+.main .foot .child .childInfo p {
+	color:#666;
+	font-size:14px;
+}
+.main .about {
+	position:relative;
+	padding:66px 0 100px 0;
+}
+.main .about .aboutTitle {
+	position:relative;
+	height:24px;
+	padding-bottom:40px;
+}
+.main .about .aboutTitle span {
+	position:relative;
+	z-index:1;
+	line-height:24px;
+	font-size:18px;
+	color:#333333;
+	padding-right:20px;
+	background:#fff;
+}
+.main .about .aboutTitle .sub {
+	position:absolute;
+	height:6px;
+	background:#e8e8e8;
+	top:10px;
+	left:0px;
+	width:100%;
+}
+.main .about .child {
+	position:relative;
+	float:left;
+	width:288px;
+	border:1px solid #e8e8e8;
+	margin-left:12px;
+}
+.main .about a:nth-child(1) .child {
+	margin-left:0;
+}
+.main .about .child .childImg {
+	width:288px;
+	height:288px;
+	line-height:288px;
+	text-align:center;
+}
+.main .about .child .childImg img {
+	vertical-align:middle;
+	max-width:90%;
+	max-height:90%;
+}
+.main .about .child {
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.main .about .child:hover {
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	-o-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+}
+.main .about .child .childTitle {
+	position:relative;
+	height:60px;
+	text-align:center;
+}
+.main .about .child .childTitle p {
+	line-height:20px;
+	padding-top:14px;
+	color:#006FCF;
+}
+.main .about .child .childSub {
+	height:5px;
+	width:250px;
+	margin:0 auto;
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+}
+.main .about .child .childInfo {
+	height:54px;
+	line-height:54px;
+	text-align:center;
+	color:#006FCF;
+	font-size:14px;
+}
+.main .about .child .childInfo img, .main .about .child .childInfo span {
+	vertical-align:middle;
+}
+.bdsharebuttonbox {
+	position:absolute;
+	top:0;
+	left:0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.bdsharebuttonbox a {
+	display:none;
+}
+.bdsharebuttonbox .bds_weixin {
+	width: 100%;
+	height: 100%;
+	display:block;
+	opacity:0 !important;
+	filter: alpha(opacity=0) !important;
+}
+ @media (max-width: 639px) {
+.main .head .left {
+	float:left;
+	position:relative;
+	width:660px;
+}
+.main .head .left .banner {
+	height:500px;
+	border:1px solid #e8e8e8;
+	overflow:hidden;
+	margin: 0 auto;
+	width: 99%;
+}
+.main .head .left .banner img {
+	display:none;
+	max-width:100%;
+	max-height:100%;
+}
+.main .head .left .childs {
+	position:relative;
+	width:80%;
+	height:75px;
+	overflow: hidden;
+	padding: 12px 29px 0 37px;
+}
+.main .head .left .childs:after {
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility:hidden;
+}
+.main .head .left .child {
+	cursor:pointer;
+	float:left;
+	width:148px;
+	height:148px;
+	border:1px solid #e8e8e8;
+	margin-right:6px;
+}
+.main .head .left .child:nth-child(4) {
+	margin-right:0;
+}
+.main .head .left .child img {
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+}
+.main .head .left .leftBtn {
+	position: absolute;
+	left: 0;
+	top: 20px;
+}
+.main .head .left .rightBtn {
+	position: absolute;
+	right: 0px;
+	top: 20px;
+}
+.main .head .left .logoBtn {
+	cursor:pointer;
+}
+.main {
+	padding:20px 0 0 0;
+}
+.main .head {
+	padding-bottom:15px;
+}
+.main .head .left {
+	float:none;
+	width:100%;
+}
+.main .head .left .banner {
+	height:100%;
+}
+.main .head .left .childs {
+	padding-top:6px;
+}
+.main .head .left .child {
+	width:23%;
+	height:71px;
+	margin-right:1%;
+}
+.main .head .left .child:nth-child(4) {
+	margin-right:0;
+}
+.main .head .right {
+	float:none;
+	width:100%;
+	font-size:12px;
+	padding-top:20px;
+}
+.main .head .right .title {
+	line-height:22px;
+	font-size:14px;
+	padding-bottom:6px;
+}
+.main .head .right .sub {
+	height:2px;
+}
+.main .head .right .info {
+	padding:10px 0 10px 0;
+}
+.main .head .right .tag {
+	line-height:20px;
+	font-size:12px;
+}
+.main .content .left {
+	width:100%;
+	float:none;
+}
+.main .content .left li {
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+}
+.main .content .right {
+	width:auto;
+	padding:10px 12px;
+	float:none;
+	margin-top:10px;
+}
+.main .content .right .title {
+	font-size:14px;
+	line-height:22px;
+}
+.main .content .right .info {
+	padding:6px 0;
+	line-height:18px;
+	font-size:14px;
+}
+.main .foot {
+	height:60px;
+	margin:20px 0;
+}
+.main .foot .child {
+	width:22%;
+}
+.main .foot .child .childIcon {
+	margin-top:10px;
+	width:38px;
+	height:38px;
+	line-height:38px;
+	border-radius:38px;
+	-moz-border-radius:38px;
+	-ms-border-radius:38px;
+	-o-border-radius:38px;
+	-webkit-border-radius:38px;
+}
+.main .foot .child .childInfo {
+	display:none;
+}
+.main .about {
+	padding:0px 0 40px 0;
+	display:none;
+}
+.main .about .aboutTitle {
+	height:24px;
+	padding-bottom:40px;
+}
+.main .about .aboutTitle span {
+	line-height:20px;
+	font-size:14px;
+	padding-right:8px;
+}
+.main .about .aboutTitle .sub {
+	height:4px;
+	top:8px;
+}
+.main .about .child {
+	width:288px;
+	margin:10px auto;
+	float:none;
+	display:inline-block;
+*display:inline;
+*zoom:1;
+}
+.main .about .child .childImg {
+	width:288px;
+	height:288px;
+	line-height:288px;
+}
+.main .about .child .childTitle {
+	height:60px;
+}
+.main .about .child .childTitle p {
+	line-height:20px;
+	padding-top:14px;
+}
+.main .about .child .childSub {
+	height:5px;
+	width:250px;
+}
+.main .about .child .childInfo {
+	height:54px;
+	line-height:54px;
+	font-size:14px;
+}
+}
+@media (min-width: 640px) and (max-width:1023px ) {
+.main .head .left {
+	float:left;
+	position:relative;
+	width:660px;
+}
+.main .head .left .banner {
+	height:500px;
+	border:1px solid #e8e8e8;
+	overflow:hidden;
+	margin: 0 auto;
+	width: 500px;
+}
+.main .head .left .banner img {
+	display:none;
+	max-width:100%;
+	max-height:100%;
+}
+.main .head .left .childs {
+	position:relative;
+	width:87%;
+	height:126px;
+	overflow: hidden;
+	padding: 12px 29px 0 37px;
+}
+.main .head .left .childs:after {
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility:hidden;
+}
+.main .head .left .child {
+	cursor:pointer;
+	float:left;
+	width:148px;
+	height:148px;
+	border:1px solid #e8e8e8;
+	margin-right:6px;
+}
+.main .head .left .child:nth-child(4) {
+	margin-right:0;
+}
+.main .head .left .child img {
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+}
+.main .head .left .leftBtn {
+	position: absolute;
+	left: 0;
+	top: 50px;
+}
+.main .head .left .rightBtn {
+	position: absolute;
+	right: 0px;
+	top: 50px;
+}
+.main .head .left .logoBtn {
+	cursor:pointer;
+}
+.main {
+	padding:40px 0 0 0;
+}
+.main .head {
+	padding-bottom:30px;
+}
+.main .head .left {
+	float:none;
+	width:100%;
+}
+.main .head .left .banner {
+	height:610px;
+}
+.main .head .left .childs {
+	padding-top:12px;
+}
+.main .head .left .child {
+	width:122px;
+	height:124px;
+	margin-right:6px;
+}
+.main .head .left .child:nth-child(4) {
+	margin-right:0;
+}
+.main .head .right {
+	float:none;
+	width:100%;
+	font-size:16px;
+	padding-top:40px;
+}
+.main .head .right .title {
+	line-height:26px;
+	font-size:20px;
+	padding-bottom:20px;
+}
+.main .head .right .sub {
+	height:4px;
+}
+.main .head .right .info {
+	padding:20px 0 20px 0;
+}
+.main .head .right .tag {
+	line-height:24px;
+}
+.main .content .left {
+	width:100%;
+	float:none;
+}
+.main .content .left li {
+	height:50px;
+	line-height:50px;
+	font-size:14px;
+}
+.main .content .right {
+	width:auto;
+	padding:28px 36px;
+	float:none;
+	margin-top:20px;
+}
+.main .content .right .title {
+	font-size:16px;
+	line-height:22px;
+}
+.main .content .right .info {
+	padding:22px 0;
+	line-height:22px;
+	font-size:14px;
+}
+.main .foot {
+	height:78px;
+	margin:60px 0;
+}
+.main .foot .child {
+	width:24%;
+}
+.main .foot .child .childIcon {
+	margin-top:20px;
+	width:38px;
+	height:38px;
+	line-height:38px;
+	border-radius:38px;
+	-moz-border-radius:38px;
+	-ms-border-radius:38px;
+	-o-border-radius:38px;
+	-webkit-border-radius:38px;
+}
+.main .foot .child .childInfo {
+	padding-left:12px;
+	margin-top: 18px;
+}
+.main .foot .child .childInfo p {
+	font-size:14px;
+}
+.main .about {
+	padding:0px 0 100px 0;
+}
+.main .about .aboutTitle {
+	height:24px;
+	padding-bottom:40px;
+}
+.main .about .aboutTitle span {
+	line-height:24px;
+	font-size:18px;
+	padding-right:20px;
+}
+.main .about .aboutTitle .sub {
+	height:6px;
+	top:10px;
+}
+.main .about .child {
+	float:none;
+	display:inline-block;
+*display:inline;
+*zoom:1;
+	width:288px;
+	margin:6px 6px 0 0;
+}
+.main .about a:nth-child(1) .child {
+	margin-left:0;
+}
+.main .about .child .childImg {
+	width:288px;
+	height:288px;
+	line-height:288px;
+}
+.main .about .child .childTitle {
+	height:60px;
+}
+.main .about .child .childTitle p {
+	line-height:20px;
+	padding-top:14px;
+}
+.main .about .child .childSub {
+	height:5px;
+	width:250px;
+}
+.main .about .child .childInfo {
+	height:54px;
+	line-height:54px;
+	font-size:14px;
+}
+}
+@media (min-width: 1024px) and (max-width:1199px ) {
+.main {
+	padding:40px 0 0 0;
+}
+.main .head {
+	padding-bottom:70px;
+}
+.main .head .left {
+	width:504px;
+}
+.main .head .left .banner {
+	height:498px;
+}
+.main .head .left .child {
+	width:120px;
+	height:120px;
+	margin-right:5px;
+}
+.main .head .left .child:nth-child(4) {
+	margin-right:0;
+}
+.main .head .right {
+	width:445px;
+	font-size:16px;
+}
+.main .content .left {
+	width:228px;
+}
+.main .content .right {
+	width:637px;
+	padding:28px 36px;
+}
+.main .about {
+	padding:20px 0 60px 0;
+}
+.main .about .child {
+	float:none;
+	display:inline-block;
+*display:inline;
+*zoom:1;
+	margin:10px 10px 0 0;
+}
+}
+@media (min-width: 1200px) and (max-width:1439px ) {
+}
+@media (min-width: 1440px) and (max-width:1920px ) {
+}

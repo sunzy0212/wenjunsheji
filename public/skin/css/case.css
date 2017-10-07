@@ -1,0 +1,429 @@
+﻿/* dede58.com 做最好的织梦模板 */
+.main .left {
+	width:285px;
+	border-top:1px solid #e2e0e0;
+	border-right:1px solid #e2e0e0;
+	float:left;
+}
+.main .left .child {
+	color:#666;
+	font-size:16px;
+}
+.main .left .child .childTitle {
+	line-height:20px;
+	padding:16px 0;
+	border-bottom:1px solid #e2e0e0;
+	cursor:pointer;
+}
+.main .left .child .childTitle span {
+	vertical-align:middle;
+}
+.main .left .child .childTitle img {
+	margin-left:16px;
+	vertical-align:middle;
+}
+.main .left .child .childTitle img {
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.main .left .child .childTitle img.on {
+	transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+}
+.main .left .child .childContent {
+	display:none;
+}
+.main .left .child .childContent .childList {
+	color:#666;
+	font-size:16px;
+	position:relative;
+	line-height:20px;
+	padding:16px 0;
+	border-bottom:1px solid #e2e0e0;
+}
+.main .left .child .childContent .childList p {
+	padding-left:14px;
+}
+.main .left .child .childContent .childList .childSub {
+	display:none;
+	position:absolute;
+	top:0px;
+	right:20px;
+	width:3px;
+	height:100%;
+	background:#9e9e9e;
+}
+.main .left .child .childContent .childList .childSub {
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.main .left .child .childContent .childList:hover {
+	color:#9e9e9e;
+}
+.main .left .child .childContent .childList:hover .childSub {
+	display:block;
+	right:0px;
+}
+.main .left .child .childContent .childList.on {
+	color:#9e9e9e;
+}
+.main .left .child .childContent .childList.on .childSub {
+	display:block;
+	right:0px;
+}
+.main .right {
+	width:824px;
+	float:right;
+}
+.main .right .rightTitle {
+	position:relative;
+	line-height:26px;
+}
+.main .right .rightTitle .title {
+	position:relative;
+	z-index:1;
+	background:#fff;
+	padding-right:10px;
+	color:#666;
+	font-size:18px;
+}
+.main .right .rightTitle .sub {
+	position:absolute;
+	top:50%;
+	width:100%;
+	background:#c9c9c9;
+	height:1px;
+}
+.main .right .content {
+	padding:30px 0;
+}
+.main .right .content img {
+	max-width:100%;
+	height:auto !important;
+}
+.main .right .content p {
+	font-size:14px !important;
+	color:#666 !important;
+	line-height:24px !important;
+	padding:10px 0 !important;
+}
+.main .right .content div {
+	font-size:14px !important;
+	color:#666 !important;
+	line-height:24px !important;
+	padding:1px 0 !important;
+}
+.main .right .content span {
+	font-size:14px !important;
+	color:#666 !important;
+	line-height:24px !important;
+	padding:10px 0 !important;
+}
+.main .right .content p span {
+	font-size:14px !important;
+	color:#666 !important;
+	line-height:24px !important;
+	padding:10px 0 !important;
+}
+.main .right .foot {
+	position:relative;
+	text-align:center;
+	height:78px;
+	border-top:1px solid #bebebe;
+	border-bottom:1px solid #bebebe;
+	margin:30px 0;
+}
+.main .right .foot .child {
+	display:inline-block;
+*display:inline;
+*zoom:1;
+	position:relative;
+	width:193px;
+	height:100%;
+	border-left:1px solid #ddd;
+}
+.main .right .foot a:nth-child(1) .child {
+	border-left:0;
+}
+.main .right .foot .child .childIcon, .main .foot .child .childInfo {
+	display:inline-block;
+*display:inline;
+*zoom:1;
+	vertical-align:middle;
+}
+.main .right .foot .child .childIcon {
+	margin-top:20px;
+	position:relative;
+	background:#666;
+	width:38px;
+	height:38px;
+	text-align:center;
+	line-height:38px;
+	border-radius:38px;
+	-moz-border-radius:38px;
+	-ms-border-radius:38px;
+	-o-border-radius:38px;
+	-webkit-border-radius:38px;
+}
+.main .right .foot .child .childIcon img {
+	vertical-align:middle;
+}
+.main .right .foot .child .childIcon img {
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.main .right .foot .child:hover .childIcon img {
+	transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+}
+.main .right .foot .child .childInfo {
+	padding-left:12px;
+	text-align:left;
+	margin-top: 18px;
+}
+.main .right .foot .child .childInfo p {
+	color:#666;
+	font-size:14px;
+}
+.bdsharebuttonbox {
+	position:absolute;
+	top:0;
+	left:0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.bdsharebuttonbox a {
+	display:none;
+}
+.bdsharebuttonbox .bds_weixin {
+	width: 100%;
+	height: 100%;
+	display:block;
+	opacity:0 !important;
+	filter: alpha(opacity=0) !important;
+}
+ @media (max-width: 639px) {
+.main .left {
+	width:100%;
+	float:none;
+}
+.main .left .child {
+	font-size:12px;
+}
+.main .left .child .childTitle {
+	line-height:20px;
+	padding:6px 0;
+}
+.main .left .child .childTitle img {
+	margin-left:10px;
+}
+.main .left .child .childContent .childList {
+	font-size:14px;
+	line-height:20px;
+	padding:8px 0;
+}
+.main .left .child .childContent .childList p {
+	padding-left:14px;
+}
+.main .left .child .childContent .childList .childSub {
+	right:20px;
+	width:3px;
+}
+.main .right {
+	width:100%;
+	float:none;
+}
+.main .right .rightTitle {
+	line-height:26px;
+}
+.main .right .rightTitle .title {
+	padding-right:10px;
+	font-size:14px;
+}
+.main .right .content {
+	padding:20px 0;
+}
+.main .right .content p {
+	font-size:12px;
+	line-height:20px;
+	padding:6px 0;
+}
+.main .right .content input {
+	width: 100%;
+	height: auto;
+}
+.main .right .content div {
+	font-size:12px;
+	line-height:20px;
+	padding:6px 0;
+}
+.main .right .content span {
+	font-size:12px;
+	line-height:20px;
+	padding:6px 0;
+}
+.main .right .foot {
+	height:60px;
+	margin:10px 0;
+}
+.main .right .foot .child {
+	width:22%;
+}
+.main .right .foot .child .childIcon {
+	margin-top:10px;
+	width:38px;
+	height:38px;
+	line-height:38px;
+	border-radius:38px;
+	-moz-border-radius:38px;
+	-ms-border-radius:38px;
+	-o-border-radius:38px;
+	-webkit-border-radius:38px;
+}
+.main .right .foot .child .childInfo {
+	display:none;
+}
+}
+@media (min-width: 640px) and (max-width:1023px ) {
+.main .left {
+	width:100%;
+	float:none;
+}
+.main .left .child {
+	font-size:14px;
+}
+.main .left .child .childTitle {
+	line-height:20px;
+	padding:8px 0;
+}
+.main .left .child .childTitle img {
+	margin-left:10px;
+}
+.main .left .child .childContent .childList {
+	font-size:14px;
+	line-height:20px;
+	padding:8px 0;
+}
+.main .left .child .childContent .childList p {
+	padding-left:14px;
+}
+.main .left .child .childContent .childList .childSub {
+	right:20px;
+	width:3px;
+}
+.main .right {
+	width:100%;
+	float:none;
+}
+.main .right .rightTitle {
+	line-height:26px;
+}
+.main .right .rightTitle .title {
+	padding-right:10px;
+	font-size:14px;
+}
+.main .right .content {
+	padding:20px 0;
+}
+.main .right .content p {
+	font-size:12px;
+	line-height:20px;
+	padding:6px 0;
+}
+.main .right .content div {
+	font-size:12px;
+	line-height:20px;
+	padding:6px 0;
+}
+.main .right .content span {
+	font-size:12px;
+	line-height:20px;
+	padding:6px 0;
+}
+.main .right .foot {
+	height:78px;
+	margin:20px 0;
+}
+.main .right .foot .child {
+	width:24%;
+}
+}
+@media (min-width: 1024px) and (max-width:1199px ) {
+.main .left {
+	width:220px;
+}
+.main .left .child {
+	font-size:14px;
+}
+.main .left .child .childTitle {
+	line-height:20px;
+	padding:8px 0;
+}
+.main .left .child .childTitle img {
+	margin-left:10px;
+}
+.main .left .child .childContent .childList {
+	font-size:14px;
+	line-height:20px;
+	padding:8px 0;
+}
+.main .left .child .childContent .childList p {
+	padding-left:14px;
+}
+.main .left .child .childContent .childList .childSub {
+	right:20px;
+	width:3px;
+}
+.main .right {
+	width:720px;
+}
+.main .right .rightTitle {
+	line-height:26px;
+}
+.main .right .rightTitle .title {
+	padding-right:10px;
+	font-size:14px;
+}
+.main .right .content {
+	padding:20px 0;
+}
+.main .right .content p {
+	font-size:12px;
+	line-height:20px;
+	padding:6px 0;
+}
+.main .right .content div {
+	font-size:12px;
+	line-height:20px;
+	padding:6px 0;
+}
+.main .right .content span {
+	font-size:12px;
+	line-height:20px;
+	padding:6px 0;
+}
+.main .right .foot {
+	height:78px;
+	margin:20px 0;
+}
+.main .right .foot .child {
+	width:24%;
+}
+}
+@media (min-width: 1200px) and (max-width:1439px ) {
+}
+@media (min-width: 1440px) and (max-width:1920px ) {
+}

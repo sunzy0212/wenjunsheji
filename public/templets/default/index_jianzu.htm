@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" type="text/css" href="/skin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/skin/css/indexbanner.css" />
+</head>
+<body >
+<!-- header --> 
+{dede:include filename="head.htm"/} 
+<!-- header over -->
+</div>
+<!-- wap over -->
+</div>
+<!-- header over -->
+
+<link rel="stylesheet" type="text/css" href="/skin/css/commercial.css" />
+<!-- crumbs -->
+<div class="crumbs">
+  <div class="container">
+    <p class="title">{dede:field name='typename'/}</p>
+    <div class="childs"> {dede:field name='position'/} </div>
+  </div>
+</div>
+<!-- crumbs over --> 
+<!-- main -->
+<div class="main">
+  <div class="container">
+    <div class="maxTitle"> <span class="title">智能建筑</span>
+      <div class="sub"></div>
+    </div>
+    {dede:field.content/}
+    <div class="mainHead">
+      <div class="left">
+        <p><img src="/skin/images/559ded856f193.jpg"/></p>
+        <div class="content1 content">
+          <p>所有的商用建筑，无论规模大小，都可以从织梦58智能解决方案的功能特色中受益。</p>
+          <p>&nbsp;</p>
+          <p>无论是什么类型的商用建筑，在安装智能系统的时候必定会把节约成本作为重点考虑的因素之一。</p>
+          <p>&nbsp;</p>
+          <p>对于一般的商用建筑来说，照明与中央空调（HVAC）所消耗的电量约为总量的70%。如此之高的百分比代表的是数额具大的费用以及对环境的不利影响。</p>
+          <p>&nbsp;</p>
+          <p>如果一栋商用建筑安装使用织梦58智能解决方案，最少可以减少30%的能源消耗。运营成本也会因此显著下降，同时大大地减少建筑对环境的影响。</p>
+          <p>&nbsp;</p>
+          <p>织梦58智能系统对照明、HVAC和遮光窗帘的智能控制可以为你实现上面的这些成本节约。例如：</p>
+          <ul>
+            <li>如果室内温度过低，HVAC会自动关闭，面向阳光的遮光窗帘将会收起。</li>
+            <li>如果建筑内某个区域无人使用，那么HVAC和电灯会自动关闭。</li>
+          </ul>
+        </div>
+        <div class="content">
+          <p>织梦58智能建筑解决方案无需用户过多的参与，简单地说，我们是要建筑管理自动化。</p>
+          <p>&nbsp;</p>
+          <p>如果一个系统是自动化或者智能的，那么它就会是高速、有效和无错误的。当系统发现异常的时候，它可以马上通过短信、邮件把信息发送给终端用户。</p>
+          <p>&nbsp;</p>
+          <p>节约成本虽然是智能建筑解决方案初衷，但我们也不应该忽视可以实现的安防功能。</p>
+          <p>&nbsp;</p>
+          <p>织梦58的传感器模块可以发现安防漏洞，并且同时提示相关的人员。织梦58为建筑提供一体化的安防解决方案，包括玻璃破碎传感器、红外（PIR）、超声波传感器等等。</p>
+        </div>
+      </div>
+      <div class="right">
+        <p class="info">你可以花点时间浏览一下我们商用建筑智能解决方案的案例。如果需要了解更多的信息，欢迎与我们联系。</p>
+        <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+          <input type="hidden" name="action" value="post" />
+          <input type="hidden" name="diyid" value="1" />
+          <input type="hidden" name="do" value="2" />
+          <p class="title"><span>您的名字（必填）</span></p>
+          <div class="line">
+            <input type="text" name="name"  class="inputText" />
+          </div>
+          <p class="title"><span>您的邮箱（必填）</span></p>
+          <div class="line">
+            <input type="text" name="email" class="inputText" />
+          </div>
+          <p class="title"><span>标题</span></p>
+          <div class="line">
+            <input type="text" name="bt" class="inputText" />
+          </div>
+          <p class="title"><span>留言内容</span></p>
+          <div class="line">
+            <textarea name="nr" class="textArea"></textarea>
+          </div>
+          <input type="hidden" name="dede_fields" value="name,text;email,text;bt,text;nr,text" />
+          <input type="hidden" name="dede_fieldshash" value="f34de0eba88646549ae2f733b3d2d519" />
+          <p class="title"></p>
+          <p class="top15 captcha" id="captcha-container" style="  position: relative;padding-top: 25px;">
+            <input name="vdcode"  id="vdcode" width="50%" height="35" class="captcha-text" placeholder="请输右边入验证码(点击图片可刷新)" type="text" style="height:35px ;width:30%; border: 1px solid #ddd;margin-right: 20px;">
+            <img id="vdimgck" align="absmiddle" onclick="this.src=this.src+'?'"  width="30%" class="left15" height="60" alt="验证码" src="/include/vdimgck.php" title="点击刷新" style="border: 1px solid #ddd;  position:absolute;"> </p>
+          <div class="line">
+            <input type="submit" class="inputSub" value="发送" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="mainContent">
+      <div class="child left">
+        <p class="childTitle">文化中心</p>
+        <div class="childImg"> <img src="/skin/images/55c329ee3d8d0.jpg" /> </div>
+        <div class="childInfo">
+          <p>世界各地的许多文化中心都有从织梦58的解决方案中受益。大部文化中心采用我们的系统主要是因为可以降低照明、空调、音频/视频等等方面的能源消耗。建筑内的展览品也可以通过我们的智能产品在动作探测、音频自动化和照明方面的功能，打造出真正的互动环境。</p>
+          <p><a href=""></a></p>
+        </div>
+      </div>
+      <div class="child right">
+        <p class="childTitle">汽车展厅</p>
+        <div class="childImg"> <img src="/skin/images/55c2fcec55510.jpg" /> </div>
+        <div class="childInfo">
+          <p>大型的汽车展厅需要使用动态变换的灯光以更好地展示在售的汽车。我们在舞台灯光领域的经验和出类拔萃的智能系统，使用我们成为了各种类型展厅的明确选择。上图显示的宝马展厅一共使用了800多个照明回路来控制所有的照明设备。</p>
+          <p><a href=""></a></p>
+        </div>
+      </div>
+      <div class="child left">
+        <p class="childTitle">机场</p>
+        <div class="childImg"> <img src="/skin/images/55c32a2204ded.jpg" /> </div>
+        <div class="childInfo">
+          <p>机场的巨大面积以及需要控制的复杂系统决定了对应的智能解决方案必须高度灵活和易于调整。织梦58最近完成了乌克兰鲍里斯波尔国际机场航站楼D的智能项目，该机场现在可以全面地控制灯光、HVAC以前遮光窗帘。</p>
+          <p><a href=""></a></p>
+        </div>
+      </div>
+      <div class="child right">
+        <p class="childTitle">学校</p>
+        <div class="childImg"> <img src="/skin/images/55c32a303872e.jpg" /> </div>
+        <div class="childInfo">
+          <p>织梦58常见的商用建筑用户中包含中小学、大专院校和综合性大学等等。公立和私立的学校都有使用我们的技术，实现优越的环境控制以更高的安防性能。我们最近的教育机构项目案例是哥伦比亚的Colegio Nos Nogales大学。这所大学使用织梦58的产品来实现对中央空调、照明设备、遮光设备以及安防设备的智能控制。他们提出的其中一个特殊要求是，安防系统必须是可以由老师通过iOS或者安卓设备控制的，而智能开关面板必须是防撞击的。</p>
+          <p><a href=""></a></p>
+        </div>
+      </div>
+      <div class="child left">
+        <p class="childTitle">宗教场所</p>
+        <div class="childImg"> <img src="/skin/images/55c32a3c55624.jpg" /> </div>
+        <div class="childInfo">
+          <p>我们深深地明白祭祀场所对于宗教信仰者的重要性。因此我们虔诚的安装人员在实施安装的时候充分尊重相关的传统与习俗。科技可以通过控制灯光、供暖、环境和音频/视频系统来提升此类场馆的氛围。我们可以把控制面板安装在一般人视线范围以外的地方，使建筑的原始审美元素得以保留。系统使用简便、性能可靠稳定。织梦58所有的产品都是可以日复一日、年复一年地长期使用的。</p>
+          <p><a href=""></a></p>
+        </div>
+      </div>
+      <div class="child right">
+        <p class="childTitle">办公场所</p>
+        <div class="childImg"> <img src="/skin/images/55c32a52187f5.jpg" /> </div>
+        <div class="childInfo">
+          <p>许多人一天的大部分时间都是在工作的地方度过的。事实已证明，对办公环境进行有效的管理，可以显著提高员工的幸福感和生产力。如果办公场所安装了织梦58智能系统，实现对照明设备、音乐、中央空调以及安防系统的智能控制，可以降低30%的能源消耗。</p>
+          <p><a href=""></a></p>
+        </div>
+      </div>
+    </div>
+    <p class="info2">如果还不能决定购买，那么可以看一看我们的<a href="#">商用建筑项目案例</a>。或者如果你需要联系我们，可以<a href="/a/lianxiwomen/">点击这里查找你所在地的代理商</a>。如果你想更好地使用家里的织梦58系统，你可以<a href="/a/chanpinxilie/">浏览一下我们在售的产品</a>。</p>
+    <div class="top"><img src="/skin/images/top.png" /></div>
+  </div>
+</div>
+<!-- main over --> 
+<!-- footer --> 
+{dede:include filename="footer.htm"/} 
+<!-- footer over --> 
+<!-- js --> 
+<script src="/skin/js/jquery-1.11.0.min.js"></script> 
+<script src="/skin/js/base.js"></script> 
+<script src="/skin/js/index.js"></script> 
+<script src="/skin/js/indexnews.js"></script> 
+<script src="/skin/js/indexbanner.js"></script> 
+
+<!-- js over -->
+</body>
+</html>
+<script>
+	$(function(){
+		$("#btn").click(function(){
+			$("#post_1").submit();
+		});
+
+	
+		$("#btn_2").click(function(){
+			$("#post_2").submit();
+		});
+		$("#btn_3").click(function(){
+			$("#post_3").submit();
+		});
+	});
+
+
+
+</script>
+<script src="/skin/js/jquery.validate.js"></script>
+<script src="/skin/js/app.validate.js"></script>

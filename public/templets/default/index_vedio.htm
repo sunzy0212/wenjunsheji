@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" type="text/css" href="/skin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/skin/css/indexbanner.css" />
+</head>
+<body >
+<!-- header -->
+{dede:include filename="head.htm"/}
+<!-- header over -->
+</div>
+<!-- wap over -->
+</div>
+<!-- header over -->
+<link rel="stylesheet" type="text/css" href="/skin/css/vedio.css" />
+<!-- crumbs -->
+<div class="crumbs">
+  <div class="container">
+    <p class="title">{dede:field name='typename'/}</p>
+    <div class="childs"> {dede:field name='position'/} </div>
+  </div>
+</div>
+<!-- crumbs over --> 
+<!-- main -->
+<div class="main">
+  <div class="container">
+    <div class="mainHead"> <a href="#">
+      <div class="child on">企业介绍</div>
+      </a><a href="#">
+      <div class="child ">产品与解决方案</div>
+      </a><a href="#">
+      <div class="child ">展会与活动</div>
+      </a> </div>
+    <div class="mainContent">
+      <div class="child">
+        <div class="childImg"> <img class="childBg" src="/skin/images/55c035226a02b.jpg" /> <img class="childIcon" src="/skin/images/vedioicon.png" /> </div>
+        <div class="childTitle">
+          <p>HDL企业介绍</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childImg"> <img class="childBg" src="/skin/images/55c03593c4e0c.jpg" /> <img class="childIcon" src="/skin/images/vedioicon.png" /> </div>
+        <div class="childTitle">
+          <p>A brief introduction of HDL</p>
+        </div>
+      </div>
+    </div>
+    <div class="mainContent">
+      <div class="child">
+        <div class="childImg"> <img class="childBg" src="/skin/images/55c06af267262.jpg" /> <img class="childIcon" src="/skin/images/vedioicon.png" /> </div>
+        <div class="childTitle">
+          <p>HDL 晶典系列智能家居控制面板</p>
+        </div>
+      </div>
+    </div>
+    <div class="mainContent">
+      <div class="child">
+        <div class="childImg"> <img class="childBg" src="/skin/images/55c072c36d845.jpg" /> <img class="childIcon" src="/skin/images/vedioicon.png" /> </div>
+        <div class="childTitle">
+          <p>HDL2015年广州国际建筑电气展览会（光亚展）</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childImg"> <img class="childBg" src="/skin/images/55c074d425e19.jpg" /> <img class="childIcon" src="/skin/images/vedioicon.png" /> </div>
+        <div class="childTitle">
+          <p>HDL 2015年欧洲集成系统展 （HDL ISE 2015）</p>
+        </div>
+      </div>
+      <div class="child">
+        <div class="childImg"> <img class="childBg" src="/skin/images/55c07866414c4.jpg" /> <img class="childIcon" src="/skin/images/vedioicon.png" /> </div>
+        <div class="childTitle">
+          <p>Intersec 2015</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- main over --> 
+<!-- footer -->
+{dede:include filename="footer.htm"/} 
+<!-- footer over --> 
+<!-- js --> 
+<script src="/skin/js/jquery-1.11.0.min.js"></script> 
+<script src="/skin/js/base.js"></script> 
+<script src="/skin/js/index.js"></script> 
+<script src="/skin/js/indexnews.js"></script> 
+<script src="/skin/js/indexbanner.js"></script> 
+
+<!-- js over -->
+</body>
+</html>
+<script>
+	$(function(){
+		$("#btn").click(function(){
+			$("#post_1").submit();
+		});
+
+	
+		$("#btn_2").click(function(){
+			$("#post_2").submit();
+		});
+		$("#btn_3").click(function(){
+			$("#post_3").submit();
+		});
+	});
+
+
+
+</script>
+<script src="/skin/js/vedio.js"></script>

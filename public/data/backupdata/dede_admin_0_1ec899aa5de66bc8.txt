@@ -1,0 +1,1 @@
+INSERT INTO `dede_admin` VALUES('1','10','admin','29f4587751e4b79f067e','Roy','Roy','Roygotmail@gmail.com','','1481199374','221.234.254.59');

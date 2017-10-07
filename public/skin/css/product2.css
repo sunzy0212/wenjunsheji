@@ -1,0 +1,269 @@
+﻿/* dede58.com 做最好的织梦模板 */
+
+.main {
+	padding:74px 0 90px 0;
+}
+/*product*/
+.productmain .child {
+	position:relative;
+	float:left;
+	width:288px;
+	border:1px solid #e8e8e8;
+	margin:10px 10px 0 0;
+}
+.productmain .child {
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.productmain .child:hover {
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	-o-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+}
+.productmain .child .childImg {
+	width:288px;
+	height:288px;
+	line-height:288px;
+	text-align:center;
+}
+.productmain .child .childImg img {
+	vertical-align:middle;
+	max-width:90%;
+	max-height:90%;
+}
+.productmain .child .childImg img {
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.productmain .child .childImg img:hover {
+	transform:scale(1.04);
+	-moz-transform:scale(1.04);
+	-ms-transform:scale(1.04);
+	-o-transform:scale(1.04);
+	-webkit-transform:scale(1.04);
+}
+.productmain .child .childTitle {
+	position:relative;
+	height:60px;
+	text-align:center;
+}
+.productmain .child .childTitle p {
+	line-height:20px;
+	padding-top:14px;
+	color:#006FCF;
+}
+.productmain .child .childSub {
+	height:5px;
+	width:250px;
+	margin:0 auto;
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+}
+.productmain .child .childInfo {
+	height:54px;
+	line-height:54px;
+	text-align:center;
+	color:#006FCF;
+	font-size:14px;
+}
+.productmain .child .childInfo img, .main .about .child .childInfo span {
+	vertical-align:middle;
+}
+/*news*/
+.mainContent .child {
+	width:285px;
+	margin-right:10px;
+	vertical-align:text-top;
+	padding-top:60px;
+	display:inline-block;
+*display:inline;
+*zoom:1;
+}
+.mainContent .child .childImg {
+	overflow:hidden;
+	position:relative;
+	width:285px;
+	height:212px;
+	line-height:212px;
+	text-align:center;
+}
+.mainContent .child .childImg {
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.mainContent .child:hover .childImg {
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+	-o-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+}
+.mainContent .child .childImg .childImgimg {
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+}
+.mainContent .child .childImg .childHide {
+	opacity:0;
+	position:absolute;
+	top:0px;
+	left:-100%;
+	width:100%;
+	height:100%;
+	background-image: linear-gradient(top, rgba(232,232,232, 0.8) 0%, rgba(214,214,214, 0.8) 100%);
+	background-image: -o-linear-gradient(top, rgba(232,232,232, 0.8) 0%, rgba(214,214,214, 0.8) 100%);
+	background-image: -moz-linear-gradient(top, rgba(232,232,232, 0.8) 0%, rgba(214,214,214, 0.8) 100%);
+	background-image: -webkit-linear-gradient(top, rgba(232,232,232, 0.8) 0%, rgba(214,214,214, 0.8) 100%);
+	background-image: -ms-linear-gradient(top, rgba(232,232,232, 0.8) 0%, rgba(214,214,214, 0.8) 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(232,232,232, 0.8)), color-stop(1, rgba(214,214,214, 0.8)));
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#d6d6d6'), progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.mainContent .child .childImg .childHide {
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.mainContent .child .childImg .childHide .childHideIcon {
+	display:inline-block;
+*display:inline;
+*zoom:1;
+	margin:0 2px;
+	cursor:pointer;
+	width:36px;
+	height:36px;
+	text-align:center;
+	line-height:36px;
+	border-radius:36px;
+	-moz-border-radius:36px;
+	-ms-border-radius:36px;
+	-o-border-radius:36px;
+	-webkit-border-radius:36px;
+	background:#5f5f5f;
+}
+.mainContent .child .childImg .childHide .childHideIcon {
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.mainContent .child .childImg .childHide .childHideIcon:hover {
+	background:#000;
+}
+.mainContent .child .childImg .childHide .childHideIcon img {
+	vertical-align:middle;
+}
+.mainContent .child .childImg:hover .childHide {
+	left:0;
+	opacity:1;
+}
+.mainContent .child .childTitle {
+	line-height:24px;
+	padding:20px 0 0 0;
+	color:#333333;
+	font-size:14px;
+}
+.mainContent .child .childTime {
+	line-height:22px;
+	padding:6px 0;
+	color:#999999;
+	font-size:12px;
+}
+.mainContent .child .childInfo {
+	line-height:22px;
+	font-size:12px;
+	color:#666;
+}
+@media (max-width: 639px) {
+.main {
+	padding:30px 0 20px 0;
+	text-align:center;
+}
+.main .child {
+	width:288px;
+	margin:10px auto;
+	float:none;
+	display:inline-block;
+*display:inline;
+*zoom:1;
+}
+.main .child .childImg {
+	width:288px;
+	height:288px;
+	line-height:288px;
+}
+.main .child .childTitle {
+	height:60px;
+}
+.main .child .childTitle p {
+	line-height:20px;
+	padding-top:14px;
+}
+.main .child .childSub {
+	height:5px;
+	width:250px;
+}
+.main .child .childInfo {
+	height:54px;
+	line-height:54px;
+	font-size:14px;
+}
+}
+@media (min-width: 640px) and (max-width:1023px ) {
+.main {
+	padding:36px 0 60px 0;
+	text-align:center;
+}
+.main .child {
+	width:288px;
+	margin:6px 6px 0 0;
+	float:none;
+	display:inline-block;
+*display:inline;
+*zoom:1;
+}
+.main .child .childImg {
+	width:288px;
+	height:288px;
+	line-height:288px;
+}
+.main .child .childTitle {
+	height:60px;
+}
+.main .child .childTitle p {
+	line-height:20px;
+	padding-top:14px;
+}
+.main .child .childSub {
+	height:5px;
+	width:250px;
+}
+.main .child .childInfo {
+	height:54px;
+	line-height:54px;
+	font-size:14px;
+}
+}
+@media (min-width: 1024px) and (max-width:1199px ) {
+.main {
+	text-align:center;
+}
+.main .child {
+	float:none;
+	display:inline-block;
+*display:inline;
+*zoom:1;
+}
+}
+@media (min-width: 1200px) and (max-width:1439px ) {
+}
+@media (min-width: 1440px) and (max-width:1920px ) {
+}

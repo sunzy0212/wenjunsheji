@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" type="text/css" href="/skin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/skin/css/indexbanner.css" />
+</head>
+<body >
+<!-- header --> 
+{dede:include filename="head.htm"/} 
+<!-- header over -->
+</div>
+<!-- wap over -->
+</div>
+<!-- header over -->
+<link rel="stylesheet" type="text/css" href="/skin/css/social.css" />
+<!-- crumbs -->
+<div class="crumbs">
+  <div class="container">
+    <p class="title">{dede:field name='typename'/}</p>
+    <div class="childs"> {dede:field name='position'/} </div>
+  </div>
+</div>
+<!-- crumbs over --> 
+<!-- main -->
+<div class="main">
+  <div class="container">
+    <div class="maxTitle"> <span class="title">社交媒体</span>
+      <div class="sub"></div>
+    </div>
+    <p class="socialInfo">我们工作室怀抱分享的心情，在各大社交媒体设立平台。如您想跟我们产生更多互动，可通过以下官方平台成为我们的粉丝：</p>
+    <div class="content"> <a href="http://mp.weixin.qq.com/">
+      <div class="child">
+        <div class="childImg"> <img src="/skin/images/wechat2.png" /> </div>
+        <p class="childTitle">扫一扫关注微信：企业动态、新品发布及工程分享点击 </p>
+      </div>
+      </a> <a href="http://weibo.com/">
+      <div class="child">
+        <div class="childImg"> <img src="/skin/images/weibo2.png" /> </div>
+        <p class="childTitle">关注微博：企业动态、互动留言</p>
+      </div>
+      </a> <a href="http://www.youku.com/">
+      <div class="child">
+        <div class="childImg"> <img src="/skin/images/youku.png" /> </div>
+        <p class="childTitle">点击订阅优酷频道：捕抓每一段精彩的成长经历</p>
+      </div>
+      </a> </div>
+    <div class="content"> <a href="http://www.facebook.com/">
+      <div class="child">
+        <div class="childImg"> <img src="/skin/images/facebook.png" /> </div>
+        <p class="childTitle">Facebook, News, competitions and more</p>
+      </div>
+      </a> <a href="http://twitter.com/">
+      <div class="child">
+        <div class="childImg"> <img src="/skin/images/twitter.png" /> </div>
+        <p class="childTitle">Twitter, Get the latest updates</p>
+      </div>
+      </a> <a href="https://www.google.com/">
+      <div class="child">
+        <div class="childImg"> <img src="/skin/images/google.png" /> </div>
+        <p class="childTitle">Google + Pictures, gossip and news</p>
+      </div>
+      </a> <a href="https://www.youtube.com/">
+      <div class="child">
+        <div class="childImg"> <img src="/skin/images/youtube.png" /> </div>
+        <p class="childTitle">Youtube, View all of our videos</p>
+      </div>
+      </a> </div>
+  </div>
+</div>
+<!-- main over --> 
+<!-- footer --> 
+{dede:include filename="footer.htm"/} 
+<!-- footer over --> 
+<!-- js --> 
+<script src="/skin/js/jquery-1.11.0.min.js"></script> 
+<script src="/skin/js/base.js"></script> 
+<script src="/skin/js/index.js"></script> 
+<script src="/skin/js/indexnews.js"></script> 
+<script src="/skin/js/indexbanner.js"></script> 
+
+<!-- js over -->
+</body>
+</html>
+<script>
+	$(function(){
+		$("#btn").click(function(){
+			$("#post_1").submit();
+		});
+
+	
+		$("#btn_2").click(function(){
+			$("#post_2").submit();
+		});
+		$("#btn_3").click(function(){
+			$("#post_3").submit();
+		});
+	});
+
+
+
+</script>

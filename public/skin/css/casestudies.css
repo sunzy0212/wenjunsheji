@@ -1,0 +1,286 @@
+﻿/* dede58.com 做最好的织梦模板 */
+.main .caseInfo {
+	color:#666;
+	font-size:14px;
+	line-height:16px;
+	padding:20px 0 46px 0;
+}
+.main .mainHead .content {
+	padding:20px 0px 20px 30px;
+	background:#f1f1f1;
+}
+.main .mainHead .content:after {
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility:hidden;
+}
+.main .mainHead .content .child {
+	position:relative;
+	width:292px;
+	float:left;
+}
+.main .mainHead .content .child li {
+	cursor:pointer;
+	line-height:22px;
+	font-size:14px;
+	color:#666;
+}
+.main .mainHead .content .child li {
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.main .mainHead .content .child li:hover {
+	color:#7D2F8D;
+}
+.main .mainHead .content .child .title {
+	color:#333333;
+	font-size:16px;
+	line-height:30px;
+}
+.main .mainHead .more {
+	margin:20px 0;
+	border:1px solid #e2e2e2;
+	height:58px;
+	text-align:center;
+	line-height:58px;
+	color:#7D2F8D;
+	font-size:15px;
+}
+.main .mainContent .child {
+	padding:70px 0;
+	border-bottom:1px solid #e1e1e1;
+}
+.main .mainContent .child:after {
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility:hidden;
+}
+.main .mainContent .child .childImg {
+	position:relative;
+	width:567px;
+	height:370px;
+	float:left;
+}
+.main .mainContent .child .childImg img {
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+}
+.main .mainContent .child .childInfo {
+	position:relative;
+	width:520px;
+	float:right;
+}
+.main .mainContent .child .childInfo .childTitle {
+	padding-top:36px;
+	line-height:30px;
+	color:#333333;
+	font-size:20px;
+}
+.main .mainContent .child .childInfo .childTitle2 {
+	line-height:32px;
+	padding-bottom:30px;
+	color:#333333;
+	font-size:20px;
+}
+.main .mainContent .child .childInfo .childInfo2 {
+	color:#666;
+	font-size:14px;
+	line-height:24px;
+}
+.main .mainContent .child.leftChild .childImg {
+	float:left;
+}
+.main .mainContent .child.leftChild .childInfo {
+	float:right;
+}
+.main .mainContent .child.rightChild .childImg {
+	float:right;
+}
+.main .mainContent .child.rightChild .childInfo {
+	float:left;
+}
+@media (max-width: 639px) {
+.main .caseInfo {
+	font-size:12px;
+	line-height:16px;
+	padding:10px 0 23px 0;
+}
+.main .mainHead .content {
+	padding:10px;
+}
+.main .mainHead .content .child {
+	width:46%;
+	float:none;
+	display:inline-block;
+*display:inline;
+*zoom:1;
+	vertical-align:text-top;
+	margin-bottom:10px;
+}
+.main .mainHead .content .child li {
+	line-height:18px;
+	font-size:12px;
+}
+.main .mainHead .content .child .title {
+	font-size:14px;
+	line-height:22px;
+}
+.main .mainHead .more {
+	margin:10px 0;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+}
+.main .mainContent .child {
+	padding:20px 0;
+}
+.main .mainContent .child .childImg {
+	width:100%;
+	height:auto;
+	float:none;
+	margin:0 auto;
+}
+.main .mainContent .child .childImg img {
+	width:100%;
+	height:auto;
+	vertical-align:middle;
+}
+.main .mainContent .child .childInfo {
+	width:100%;
+	float:none;
+}
+.main .mainContent .child .childInfo .childTitle {
+	padding-top:18px;
+	line-height:20px;
+	font-size:14px;
+}
+.main .mainContent .child .childInfo .childTitle2 {
+	line-height:20px;
+	padding-bottom:16px;
+	font-size:12px;
+}
+.main .mainContent .child .childInfo .childInfo2 {
+	font-size:12px;
+	line-height:20px;
+}
+.main .mainContent .child.leftChild .childImg {
+	float:none;
+}
+.main .mainContent .child.leftChild .childInfo {
+	float:none;
+}
+.main .mainContent .child.rightChild .childImg {
+	float:none;
+}
+.main .mainContent .child.rightChild .childInfo {
+	float:none;
+}
+}
+@media (min-width: 640px) and (max-width:1023px ) {
+.main .caseInfo {
+	font-size:14px;
+	line-height:16px;
+	padding:20px 0 46px 0;
+}
+.main .mainHead .content {
+	padding:20px;
+}
+.main .mainHead .content .child {
+	width:46%;
+	float:none;
+	display:inline-block;
+*display:inline;
+*zoom:1;
+	vertical-align:text-top;
+	margin-bottom:20px;
+}
+.main .mainHead .content .child li {
+	line-height:22px;
+	font-size:14px;
+	color:#666;
+}
+.main .mainHead .content .child .title {
+	color:#333333;
+	font-size:16px;
+	line-height:30px;
+}
+.main .mainHead .more {
+	margin:20px 0;
+	height:58px;
+	line-height:58px;
+	font-size:15px;
+}
+.main .mainContent .child {
+	padding:40px 0;
+}
+.main .mainContent .child .childImg {
+	width:100%;
+	height:auto;
+	float:none;
+	margin:0 auto;
+}
+.main .mainContent .child .childImg img {
+	width:100%;
+	height:auto;
+	vertical-align:middle;
+}
+.main .mainContent .child .childInfo {
+	width:100%;
+	float:none;
+}
+.main .mainContent .child .childInfo .childTitle {
+	padding-top:36px;
+	line-height:30px;
+	font-size:20px;
+}
+.main .mainContent .child .childInfo .childTitle2 {
+	line-height:32px;
+	padding-bottom:30px;
+	font-size:16px;
+}
+.main .mainContent .child .childInfo .childInfo2 {
+	font-size:14px;
+	line-height:24px;
+}
+.main .mainContent .child.leftChild .childImg {
+	float:none;
+}
+.main .mainContent .child.leftChild .childInfo {
+	float:none;
+}
+.main .mainContent .child.rightChild .childImg {
+	float:none;
+}
+.main .mainContent .child.rightChild .childInfo {
+	float:none;
+}
+}
+@media (min-width: 1024px) and (max-width:1199px ) {
+.main .mainHead .content .child {
+	width:190px;
+}
+.main .mainContent .child {
+	padding:40px 0;
+}
+.main .mainContent .child .childImg {
+	width:463px;
+	height:302px;
+}
+.main .mainContent .child .childInfo {
+	width:424px;
+}
+.main .mainContent .child .childInfo .childTitle {
+	padding-top:20px;
+}
+}
+@media (min-width: 1200px) and (max-width:1439px ) {
+}
+@media (min-width: 1440px) and (max-width:1920px ) {
+}
